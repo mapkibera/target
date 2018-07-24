@@ -403,5 +403,5 @@ $( function() {
 
     }
   );
-  target.load_geojson("../mapkibera-counties/data/makueni-projects-osm.geojson");
+  target.load_geojson("osm.geojson");
 });
