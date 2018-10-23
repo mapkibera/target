@@ -260,7 +260,7 @@ $( function() {
         "group" : "population"
       },
       "osm:education:curriculum" : {
-        "validation": ["validate_allowed_list"],
+        "validation": ["validate_multi_allowed_list"],
         "options" : {"allowed_list" : ["2_6_3_3_3","8_4_4","gcse","montessori","ntsa"]},
         "group" : "services"
       },
@@ -326,7 +326,7 @@ $( function() {
         "group" : "fees"
       },
       "osm:education:fees_other" : {
-        "validation" : ["validate_numeric"],
+        "validation" : [],
         "group" : "fees"
       },
       "osm:education:fees_trip" : {
@@ -352,7 +352,7 @@ $( function() {
         "group": "basic"
       },
       "osm:education:mean_score": {
-        "validation": ["validate_numeric"],
+        "validation": ["validate_present"],
         "group": "basic"
       },
       "osm:education:nemis_code": {
@@ -369,7 +369,7 @@ $( function() {
       },
       "osm:education:operate_as": {
         "validation": ["validate_allowed_list"],
-        "options": {"allowed_list": ["day_school","day_and_boarding","boarding"]},
+        "options": {"allowed_list": ["day_school","day_and_boarding","boarding_school"]},
         "group": "basic"
       },
       "osm:education:pta": {
@@ -381,7 +381,8 @@ $( function() {
         "group": "services"
       },
       "osm:education:program_feeding": {
-        "validation": ["validate_yes_no"],
+        "validation": ["validate_allowed_list"],
+        "options": {"allowed_list": ["yes","no","central_feeding"]},
         "group": "services"
       },
       "osm:education:program_feeding_description": {
@@ -390,6 +391,10 @@ $( function() {
       },
       "osm:education:program_orphans": {
         "validation": ["validate_yes_no"],
+        "group": "services"
+      },
+      "osm:education:program_other": {
+        "validation": [],
         "group": "services"
       },
       "osm:education:program_sanitary_towel": {
@@ -467,6 +472,10 @@ $( function() {
         "validation": ["validate_url"],
         "group": "basic"
       },
+      "osm:image:sign_post": {
+        "validation": ["validate_url"],
+        "group": "basic"
+      },
       "osm:operator:description": {
         "validation": ["validate_present"],
         "group": "basic"
@@ -493,7 +502,7 @@ $( function() {
         "options": {"allowed_list": ["yes","no","outside_public","arranged"]},
         "group": "infrastructure"
       },
-      "osm:toilets:teacher": {
+      "osm:toilets:teachers": {
         "validation": ["validate_numeric"],
         "group": "infrastructure"
       },
@@ -505,6 +514,10 @@ $( function() {
         "validation": ["validate_allowed_list"],
         "options": {"allowed_list": ["tap","water_tank"]},
         "group": "infrastructure"
+      },
+      "osm:location": {
+        "validation": [],
+        "group": "basic"
       },
       "_unallowed": {
         "validation" : ["validate_unallowed"],
@@ -692,6 +705,10 @@ $( function() {
       },
       "osm:education:program_feeding" : {
         "validation" : ["validate_check"],
+        "group" : "operations"
+      },
+      "osm:education:program_other" : {
+        "validation" : ["validate_present"],
         "group" : "operations"
       },
       "osm:education:program_sanitary_towel" : {
