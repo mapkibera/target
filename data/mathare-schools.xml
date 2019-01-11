@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='-38978' action='modify' lat='-1.252923' lon='36.870436'>
+    <tag k='accessibility' v='small_cars,big_vehicles,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:kitchen' v='y' />
+    <tag k='amenity:library' v='y' />
+    <tag k='barrier:fence' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:material' v='permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_center' v='yes' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_level1' v='1550' />
+    <tag k='education:fees_level2' v='2500' />
+    <tag k='education:fees_level3' v='3600' />
+    <tag k='education:fees_lunch' v='1500' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:funding_other' v='church' />
+    <tag k='education:gender_type' v='mixed' />
+    <tag k='education:government_registered' v='faith based' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description' v='school_fees' />
+    <tag k='education:students_female' v='150' />
+    <tag k='education:students_male' v='60' />
+    <tag k='education:teachers_female' v='8' />
+    <tag k='education:teachers_male' v='6' />
+    <tag k='education:teachers_trained' v='14' />
+    <tag k='education:type' v='pre_primary,primary,vocational' />
+    <tag k='electricity:operational_status' v='sometimes' />
+    <tag k='leisure:playground' v='y' />
+    <tag k='name' v='St Maurus' />
+    <tag k='operator:type' v='religious' />
+    <tag k='start_date' v='more_than_15_years' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='1' />
+    <tag k='toilet:teachers_male' v='1' />
+    <tag k='toilets:female' v='2' />
+    <tag k='toilets:male' v='2' />
+    <tag k='waste:garbage_disposal' v='always' />
+  </node>
+  <node id='-38980' action='modify' lat='-1.252057' lon='36.869884'>
+    <tag k='accessibility' v='small_cars,big_vehicles,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:kitchen' v='y' />
+    <tag k='barrier:fence' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:classrooms' v='8' />
+    <tag k='building:material' v='permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_center' v='yes' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_music' v='yes' />
+    <tag k='education:extra_scouts/girl_guides' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_level1' v='3000' />
+    <tag k='education:fees_level2' v='3000' />
+    <tag k='education:fees_level3' v='3600' />
+    <tag k='education:fees_lunch' v='1500' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:funding_other' v='international_ngo' />
+    <tag k='education:government_registered' v='city_council' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description' v='school_fees' />
+    <tag k='education:students_female' v='125' />
+    <tag k='education:students_male' v='145' />
+    <tag k='education:teachers_female' v='12' />
+    <tag k='education:teachers_male' v='3' />
+    <tag k='education:teachers_trained' v='7' />
+    <tag k='education:tsc_employed' v='0' />
+    <tag k='education:type' v='primary' />
+    <tag k='electricity:operational_status' v='always' />
+    <tag k='government:registered_1' v='provisional APBET certificate' />
+    <tag k='name' v='Amson Education Center' />
+    <tag k='operator:type' v='private' />
+    <tag k='start_date' v='2008' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='1' />
+    <tag k='toilet:teachers_male' v='1' />
+    <tag k='toilets:female' v='1' />
+    <tag k='toilets:male' v='1' />
+    <tag k='waste:garbage_disposal' v='always' />
+  </node>
+  <node id='-38982' action='modify' lat='-1.256139' lon='36.866514'>
+    <tag k='accessibility' v='small_cars,big_vehicles,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:kitchen' v='y' />
+    <tag k='amenity:library' v='y' />
+    <tag k='barrier:fence' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:classrooms' v='8' />
+    <tag k='building:material' v='permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_center' v='yes' />
+    <tag k='education:extra_agriculture_club' v='yes' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_music' v='yes' />
+    <tag k='education:extra_scouts/girl_guides' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_level1' v='900' />
+    <tag k='education:fees_level2' v='900' />
+    <tag k='education:fees_level3' v='1500' />
+    <tag k='education:fees_per_term' v='191000' />
+    <tag k='education:funding' v='sponsored' />
+    <tag k='education:funding_other' v='community_business,international_ngo,local_ngo,community_based_organization,foundations,foreign_donors' />
+    <tag k='education:gender_type' v='mixed' />
+    <tag k='education:government_registered' v='private' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description_1' v='sponsored' />
+    <tag k='education:pta' v='yes' />
+    <tag k='education:students_female' v='85' />
+    <tag k='education:students_male' v='87' />
+    <tag k='education:teachers_female' v='5' />
+    <tag k='education:teachers_male' v='6' />
+    <tag k='education:teachers_trained' v='11' />
+    <tag k='education:tsc_employed' v='0' />
+    <tag k='education:type' v='primary' />
+    <tag k='electricity:operational_status' v='often' />
+    <tag k='laboratory' v='computer' />
+    <tag k='name' v='Mawewa School' />
+    <tag k='operator:decription' v='Edu Kenya' />
+    <tag k='operator:type' v='private' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='1' />
+    <tag k='toilet:teachers_male' v='1' />
+    <tag k='toilets:female' v='3' />
+    <tag k='toilets:male' v='3' />
+    <tag k='waste:garbage_disposal' v='often' />
+  </node>
+  <node id='-38984' action='modify' lat='-1.253484' lon='36.870462'>
+    <tag k='accessibility' v='small_cars,big_vehicles,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:kitchen' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:classrooms' v='4' />
+    <tag k='building:material' v='semi_permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_center' v='yes' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_music' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_level4' v='10500 per year' />
+    <tag k='education:fees_lunch' v='600' />
+    <tag k='education:fees_per_term' v='4500' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:funding_other' v='local_ngo' />
+    <tag k='education:gender_type' v='mixed' />
+    <tag k='education:government_registered' v='private' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description' v='school_fees' />
+    <tag k='education:students_female' v='40' />
+    <tag k='education:students_male' v='110' />
+    <tag k='education:teachers_female' v='3' />
+    <tag k='education:teachers_male' v='4' />
+    <tag k='education:teachers_trained' v='7' />
+    <tag k='education:tsc_employed' v='0' />
+    <tag k='education:type' v='secondary' />
+    <tag k='electricity:operational_status' v='sometimes' />
+    <tag k='laboratory' v='science' />
+    <tag k='name' v='New Mercy Care Secondary School' />
+    <tag k='operator:type' v='private' />
+    <tag k='start_date' v='2010' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='1' />
+    <tag k='toilet:teachers_male' v='1' />
+    <tag k='toilets:female' v='1' />
+    <tag k='toilets:male' v='1' />
+    <tag k='waste:garbage_disposal' v='always' />
+  </node>
+  <node id='-38986' action='modify' lat='-1.253509' lon='36.87106'>
+    <tag k='accessibility' v='small_cars,big_vehicles,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:kitchen' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:material' v='permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_affiliate' v='to_other_schools' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_music' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_level1' v='2500' />
+    <tag k='education:fees_level2' v='3000' />
+    <tag k='education:fees_level3' v='3500' />
+    <tag k='education:fees_lunch' v='600' />
+    <tag k='education:fees_per_term' v='2500' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:funding_other' v='local_ngo' />
+    <tag k='education:gender_type' v='mixed' />
+    <tag k='education:government_registered' v='mgcsd' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description' v='school_fees' />
+    <tag k='education:students_female' v='105' />
+    <tag k='education:students_male' v='75' />
+    <tag k='education:teachers_female' v='6' />
+    <tag k='education:teachers_male' v='3' />
+    <tag k='education:teachers_trained' v='9' />
+    <tag k='education:tsc_employed' v='0' />
+    <tag k='education:type' v='primary' />
+    <tag k='electricity:operational_status' v='sometimes' />
+    <tag k='name' v='New Mercy Care Primary School' />
+    <tag k='operator:type' v='private' />
+    <tag k='start_date' v='2007' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='1' />
+    <tag k='toilet:teachers_male' v='1' />
+    <tag k='toilets:female' v='1' />
+    <tag k='toilets:male' v='1' />
+    <tag k='waste:garbage_disposal' v='sometimes' />
+  </node>
+  <node id='-38988' action='modify' lat='-1.251946' lon='36.873813'>
+    <tag k='accessibility' v='small_cars,big_vehicles,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:kitchen' v='y' />
+    <tag k='barrier:fence' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:material' v='permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_center' v='yes' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_scouts/girl_guides' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_level4' v='8000' />
+    <tag k='education:fees_per_term' v='2000-3000' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:gender_type' v='Mixed boys and girls' />
+    <tag k='education:government_registered' v='city council' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_and_boarding' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description' v='ngo' />
+    <tag k='education:program_feeding_description_1' v='1800' />
+    <tag k='education:students_female' v='104' />
+    <tag k='education:students_male' v='85' />
+    <tag k='education:teachers_female' v='5' />
+    <tag k='education:teachers_male' v='6' />
+    <tag k='education:tsc_employed' v='0' />
+    <tag k='education:type' v='secondary' />
+    <tag k='electricity:operational_status' v='always' />
+    <tag k='laboratory' v='y' />
+    <tag k='laboratory_1' v='y' />
+    <tag k='leisure:playground' v='y' />
+    <tag k='name' v='Star Of Hope Secondary School' />
+    <tag k='operator:decription' v='Jimmy Muraya' />
+    <tag k='operator:type' v='private' />
+    <tag k='start_date' v='1988' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='5' />
+    <tag k='toilet:teachers_male' v='5' />
+    <tag k='toilets:female' v='6' />
+    <tag k='toilets:male' v='6' />
+    <tag k='waste:garbage_disposal' v='always' />
+  </node>
+  <node id='-38990' action='modify' lat='-1.259522' lon='36.866321'>
+    <tag k='accessibility' v='small_cars,foot' />
+    <tag k='amenity' v='school' />
+    <tag k='amenity:library' v='y' />
+    <tag k='barrier:fence' v='y' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:classrooms' v='38' />
+    <tag k='building:material' v='semi_permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:exam_center' v='yes' />
+    <tag k='education:extra_agriculture_club' v='yes' />
+    <tag k='education:extra_drama' v='yes' />
+    <tag k='education:extra_music' v='yes' />
+    <tag k='education:extra_nature_club' v='yes' />
+    <tag k='education:extra_scouts/girl_guides' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_per_term' v='3550' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:funding_other' v='donor' />
+    <tag k='education:gender_type' v='boys' />
+    <tag k='education:management_committee' v='yes' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description_1' v='2400' />
+    <tag k='education:teachers_trained' v='21' />
+    <tag k='education:tsc_employed' v='3' />
+    <tag k='education:type' v='primary' />
+    <tag k='electricity:operational_status' v='sometimes' />
+    <tag k='name' v='Sancare Preparatory School' />
+    <tag k='operator:decription' v='director' />
+    <tag k='operator:type' v='private' />
+    <tag k='start_date' v='2012' />
+    <tag k='toilet:teachers_female' v='1' />
+    <tag k='toilet:teachers_male' v='1' />
+    <tag k='toilets:female' v='3' />
+    <tag k='toilets:male' v='3' />
+    <tag k='waste:garbage_disposal' v='often' />
+  </node>
+  <node id='-38992' action='modify' lat='-1.259937' lon='36.868491'>
+    <tag k='accessibility_2' v='foot' />
+    <tag k='amenity' v='school' />
+    <tag k='barrier:gate' v='y' />
+    <tag k='building:classrooms' v='3' />
+    <tag k='building:material' v='permanent' />
+    <tag k='building:staff_room' v='yes' />
+    <tag k='education:extra_sports' v='yes' />
+    <tag k='education:fees_per_term' v='5000' />
+    <tag k='education:funding' v='parents' />
+    <tag k='education:gender_type' v='mixed' />
+    <tag k='education:operate_as' v='day_school' />
+    <tag k='education:program_feeding' v='yes' />
+    <tag k='education:program_feeding_description_1' v='3500' />
+    <tag k='education:students' v='167' />
+    <tag k='education:teachers_female' v='7' />
+    <tag k='education:type' v='pre_primary' />
+    <tag k='electricity:operational_status' v='always' />
+    <tag k='leisure:playground' v='y' />
+    <tag k='name' v='Eden Annex Preparatory School' />
+    <tag k='operator:decription' v='individual school owner' />
+    <tag k='operator:type' v='private' />
+    <tag k='start_date' v='2000' />
+    <tag k='toilet:present' v='yes' />
+    <tag k='toilet:teachers_female' v='2' />
+    <tag k='toilet:teachers_male' v='2' />
+    <tag k='toilets:female' v='1' />
+    <tag k='toilets:male' v='1' />
+    <tag k='waste:garbage_disposal' v='always' />
+  </node>
+</osm>
