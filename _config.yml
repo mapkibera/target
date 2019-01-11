@@ -1,3 +1,3 @@
 permalink: /:title/
-baseurl: /
+baseurl: /target/
 title: Target

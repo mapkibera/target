@@ -343,5 +343,5 @@ $( function() {
       }
     }
   );
-  target.load_geojson("/data/mathare-schools.geojson");
+  target.load_geojson("/target/data/mathare-schools.geojson");
 });
