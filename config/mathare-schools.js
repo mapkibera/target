@@ -106,9 +106,13 @@ $( function() {
       },
       "osm:education:fees" : {
         "validation": ["validate_allowed_list"],
-        "options" : {"allowed_list" : ["yes", "sponsored", "free_education"]},
+        "options" : {"allowed_list" : ["yes", "sponsored", "partially_sponsored" "free_education","other"]},
         "group" : "fees"
       },
+      "osm:education:sponsored_by": {
+        "validation" : [],
+        "group": "fees"
+      }
       "osm:education:fees_level1" : {
         "validation" : ["validate_numeric"],
         "group" : "fees"
@@ -272,6 +276,10 @@ $( function() {
         "options": {"allowed_list": ["driving_school","hair_dressing","other"]},
         "group": "basic"
       },
+      "osm:education:registration_date": {
+        "validation": ["validate_numeric"],
+        "group": "basic"
+      }
       "osm:electricity:operational_status": {
         "validation": ["validate_allowed_list"],
         "options": {"allowed_list": ["always","often","sometimes","never"]},
@@ -319,7 +327,11 @@ $( function() {
         "options": {"allowed_list": ["yes","no","outside_public","arranged"]},
         "group": "infrastructure"
       },
-      "osm:toilets:teachers": {
+      "osm:toilets:teachers_male": {
+        "validation": ["validate_numeric"],
+        "group": "infrastructure"
+      },
+      "osm:toilets:teachers_female": {
         "validation": ["validate_numeric"],
         "group": "infrastructure"
       },
