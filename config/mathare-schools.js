@@ -106,13 +106,13 @@ $( function() {
       },
       "osm:education:fees" : {
         "validation": ["validate_allowed_list"],
-        "options" : {"allowed_list" : ["yes", "sponsored", "partially_sponsored" "free_education","other"]},
+        "options" : {"allowed_list" : ["yes", "sponsored", "partially_sponsored", "free_education","other"]},
         "group" : "fees"
       },
       "osm:education:sponsored_by": {
         "validation" : [],
         "group": "fees"
-      }
+      },
       "osm:education:fees_level1" : {
         "validation" : ["validate_numeric"],
         "group" : "fees"
@@ -279,7 +279,7 @@ $( function() {
       "osm:education:registration_date": {
         "validation": ["validate_numeric"],
         "group": "basic"
-      }
+      },
       "osm:electricity:operational_status": {
         "validation": ["validate_allowed_list"],
         "options": {"allowed_list": ["always","often","sometimes","never"]},
