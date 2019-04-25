@@ -8,14 +8,14 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38978", 
+      "id": "node/-102236", 
       "properties": {
         "osm:accessibility": "small_cars,foot", 
         "osm:amenity": "school", 
         "osm:barrier:gate": "yes", 
         "osm:building:classrooms": "6", 
         "osm:building:material": "permanent", 
-        "osm:education:extra_sports": "y", 
+        "osm:education:extra_sports": "yes", 
         "osm:education:fees": "yes", 
         "osm:education:fees_lunch": "1500", 
         "osm:education:fees_per_term": "1500", 
@@ -32,7 +32,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "never", 
         "osm:government:registered": "city_council", 
-        "osm:id": "node/-38978", 
+        "osm:id": "node/-102236", 
         "osm:location": "mathare", 
         "osm:name": "Community Care School", 
         "osm:operator:decription": "Church Of The Nazarene", 
@@ -42,9 +42,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1996", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -57,10 +57,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38980", 
+      "id": "node/-102238", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-38980", 
+        "osm:id": "node/-102238", 
         "osm:location": "mathare", 
         "osm:name": "Joy Academy School"
       }, 
@@ -74,12 +74,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38982", 
+      "id": "node/-102240", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-38982", 
+        "osm:id": "node/-102240", 
         "osm:location": "mathare", 
-        "osm:name": "AMAIZING DAY CARE"
+        "osm:name": "Amaizing Day Care"
       }, 
       "type": "Feature"
     }, 
@@ -91,7 +91,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38984", 
+      "id": "node/-102242", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -107,7 +107,6 @@
         "osm:education:fees_level2": "600", 
         "osm:education:fees_level3": "800", 
         "osm:education:fees_lunch": "150", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
@@ -116,6 +115,7 @@
         "osm:education:students": "350", 
         "osm:education:students_female": "150", 
         "osm:education:students_male": "200", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "7", 
         "osm:education:teachers_male": "4", 
         "osm:education:teachers_trained": "11", 
@@ -123,7 +123,7 @@
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "government registered", 
         "osm:government:registered_1": "private", 
-        "osm:id": "node/-38984", 
+        "osm:id": "node/-102242", 
         "osm:location": "mathare", 
         "osm:name": "Hope Baptist Academy", 
         "osm:operator:decription": "Baptist church", 
@@ -133,9 +133,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2008", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "3", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -148,7 +148,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38986", 
+      "id": "node/-102244", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -163,7 +163,6 @@
         "osm:education:fees_level3": "600", 
         "osm:education:fees_lunch": "50000", 
         "osm:education:fees_per_term": "600", 
-        "osm:education:funding": "community_based_organization,foreign_donors,foundations", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -173,6 +172,7 @@
         "osm:education:students": "200", 
         "osm:education:students_female": "105", 
         "osm:education:students_male": "95", 
+        "osm:education:supported_by": "community_based_organization,foreign_donors,foundations", 
         "osm:education:teachers_female": "4", 
         "osm:education:teachers_male": "2", 
         "osm:education:teachers_trained": "1", 
@@ -180,7 +180,7 @@
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "Government registered", 
         "osm:government:registered_1": "Provisional private registration", 
-        "osm:id": "node/-38986", 
+        "osm:id": "node/-102244", 
         "osm:location": "mathare", 
         "osm:name": "Lea Mathare CBO", 
         "osm:operator:decription": "Lea Mathare CBO", 
@@ -188,9 +188,9 @@
         "osm:registration_date": "2016", 
         "osm:start_date": "2012", 
         "osm:toilet:present": "outside_public", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -203,10 +203,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38988", 
+      "id": "node/-102246", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-38988", 
+        "osm:id": "node/-102246", 
         "osm:location": "mathare", 
         "osm:name": "MECDC"
       }, 
@@ -220,7 +220,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38990", 
+      "id": "node/-102248", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -234,9 +234,7 @@
         "osm:education:extra_music": "yes", 
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
-        "osm:education:fees": "yes", 
-        "osm:education:fees_2": "sponsored", 
-        "osm:education:fees_3": "null", 
+        "osm:education:fees": "partially_sponsored", 
         "osm:education:fees_level1": "3000", 
         "osm:education:fees_level2": "4000", 
         "osm:education:fees_level3": "5400", 
@@ -255,21 +253,20 @@
         "osm:education:teachers_trained": "18", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:field_28": "2014", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-38990", 
+        "osm:id": "node/-102248", 
         "osm:internet_access": "yes", 
         "osm:location": "mathare", 
         "osm:name": "Eden Community School", 
         "osm:operator:type": "cbo", 
+        "osm:registration_date": "2014", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:start_date": "2002", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
-        "osm:toilet:teachers_1": "2", 
         "osm:toilets:female": "4", 
         "osm:toilets:male": "4", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -282,12 +279,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38992", 
+      "id": "node/-102250", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
         "osm:building:material": "semi_permanent", 
-        "osm:education:exam_affiliate": "school_is_until_std._4", 
+        "osm:education:exam_affiliate": "school_is_until_std_4", 
         "osm:education:exam_center": "no", 
         "osm:education:extra_music": "yes", 
         "osm:education:fees": "yes", 
@@ -306,15 +303,15 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-38992", 
+        "osm:id": "node/-102250", 
         "osm:location": "mathare", 
-        "osm:name": "Deut academy school", 
+        "osm:name": "Deut Academy School", 
         "osm:operator:type": "private", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:start_date": "2013", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -327,7 +324,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38994", 
+      "id": "node/-102252", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -358,7 +355,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-38994", 
+        "osm:id": "node/-102252", 
         "osm:location": "mathare", 
         "osm:name": "Star Education Center", 
         "osm:operator:decription": "private", 
@@ -381,7 +378,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38996", 
+      "id": "node/-102254", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -411,7 +408,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "city_council", 
-        "osm:id": "node/-38996", 
+        "osm:id": "node/-102254", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "St Teresas Primary School", 
@@ -422,9 +419,8 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1953", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
-        "osm:toilet:teachers_1": "1", 
         "osm:toilets:female": "23", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -437,12 +433,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-38998", 
+      "id": "node/-102256", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-38998", 
+        "osm:id": "node/-102256", 
         "osm:location": "mathare", 
-        "osm:name": "NECI EDUCATION CENTRE"
+        "osm:name": "Neci Education Centre"
       }, 
       "type": "Feature"
     }, 
@@ -454,10 +450,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39000", 
+      "id": "node/-102258", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39000", 
+        "osm:id": "node/-102258", 
         "osm:location": "mathare", 
         "osm:name": "JOY COMMUNITY SCHOOL"
       }, 
@@ -471,7 +467,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39002", 
+      "id": "node/-102260", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -485,27 +481,27 @@
         "osm:education:fees_level1": "300_per_month", 
         "osm:education:fees_level2": "350_per_month", 
         "osm:education:fees_level3": "450_per_month", 
-        "osm:education:funding": "community_based_organization", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
         "osm:education:students_female": "38", 
         "osm:education:students_male": "31", 
+        "osm:education:supported_by": "community_based_organization", 
         "osm:education:teachers_female": "3", 
         "osm:education:teachers_male": "3", 
         "osm:education:teachers_trained": "1", 
         "osm:education:type": "primary", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39002", 
+        "osm:id": "node/-102260", 
         "osm:location": "mathare", 
         "osm:name": "Mabawa School Kosovo", 
         "osm:operator:type": "private", 
         "osm:room:staff": "yes", 
         "osm:start_date": "2011", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -518,7 +514,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39004", 
+      "id": "node/-102262", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -537,7 +533,6 @@
         "osm:education:fees_level3": "1800", 
         "osm:education:fees_lunch": "100", 
         "osm:education:fees_per_term": "1800", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
@@ -546,22 +541,23 @@
         "osm:education:students": "320", 
         "osm:education:students_female": "162", 
         "osm:education:students_male": "158", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "5", 
         "osm:education:teachers_male": "10", 
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "government registered", 
-        "osm:id": "node/-39004", 
+        "osm:id": "node/-102262", 
         "osm:location": "mathare", 
         "osm:name": "Mcdeo Beijing Academy", 
         "osm:operator:type": "NGO", 
         "osm:playground": "yes", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
-        "osm:toilet:present": "yes", 
         "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:present": "yes", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -574,7 +570,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39006", 
+      "id": "node/-102264", 
       "properties": {
         "osm:accessibility": "small_cars,foot", 
         "osm:amenity": "school", 
@@ -595,9 +591,9 @@
         "osm:education:teachers_trained": "30", 
         "osm:education:tsc_employed": "none", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Never", 
+        "osm:electricity:operational_status": "never", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39006", 
+        "osm:id": "node/-102264", 
         "osm:location": "mathare", 
         "osm:name": "Destiny Community School", 
         "osm:operator:decription": "Joel juma", 
@@ -606,9 +602,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "3yrs", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "7", 
         "osm:toilets:male": "7", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Often"
       }, 
       "type": "Feature"
@@ -621,7 +617,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39008", 
+      "id": "node/-102266", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -636,7 +632,6 @@
         "osm:education:fees_level1": "900", 
         "osm:education:fees_level2": "1200", 
         "osm:education:fees_level3": "1800", 
-        "osm:education:funding": "international_ngos", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -645,6 +640,7 @@
         "osm:education:students": "312", 
         "osm:education:students_female": "165", 
         "osm:education:students_male": "147", 
+        "osm:education:supported_by": "international_ngos", 
         "osm:education:teachers_female": "9", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "12", 
@@ -652,7 +648,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "Sometimes", 
         "osm:government:registered": "Government registered", 
-        "osm:id": "node/-39008", 
+        "osm:id": "node/-102266", 
         "osm:location": "mathare", 
         "osm:name": "Macco School", 
         "osm:operator:decription": "Fundacje razem", 
@@ -662,9 +658,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2013", 
         "osm:toilet:present": "outside_public", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Sometimes"
       }, 
       "type": "Feature"
@@ -677,7 +673,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39010", 
+      "id": "node/-102268", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -689,30 +685,30 @@
         "osm:education:fees_level1": "750", 
         "osm:education:fees_level2": "900", 
         "osm:education:fees_level3": "1200", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:students": "218", 
         "osm:education:students_female": "97", 
         "osm:education:students_male": "121", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "5", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "7", 
         "osm:education:tsc_employed": "4", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Often", 
+        "osm:electricity:operational_status": "often", 
         "osm:government:registered_1": "Private", 
         "osm:government:registered_3": "Registered as a Business", 
-        "osm:id": "node/-39010", 
+        "osm:id": "node/-102268", 
         "osm:location": "mathare", 
         "osm:name": "Genesis Joy Primary", 
         "osm:operator:decription": "private", 
         "osm:operator:type": "private", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Often"
       }, 
       "type": "Feature"
@@ -725,7 +721,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39012", 
+      "id": "node/-102270", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -733,7 +729,7 @@
         "osm:barrier:security_fence": "yes", 
         "osm:building:classrooms": "4", 
         "osm:building:material": "permanent", 
-        "osm:education:exam_affiliate": "the school has not reaches std. 8", 
+        "osm:education:exam_affiliate": "the_school_has_not_reached_std_8", 
         "osm:education:exam_center": "no", 
         "osm:education:fees": "yes", 
         "osm:education:fees_level1": "1700", 
@@ -755,9 +751,9 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "attorney_general", 
-        "osm:id": "node/-39012", 
+        "osm:id": "node/-102270", 
         "osm:location": "mathare", 
-        "osm:name": "Mum's care academy", 
+        "osm:name": "Mum's Care Academy", 
         "osm:operator:decription": "Redeemed gospel church", 
         "osm:operator:type": "religious", 
         "osm:playground": "yes", 
@@ -765,9 +761,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1978", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -780,7 +776,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39014", 
+      "id": "node/-102272", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -795,7 +791,6 @@
         "osm:education:fees_level4": "6000", 
         "osm:education:fees_other": "1000_for_lunch", 
         "osm:education:fees_per_term": "5000", 
-        "osm:education:funding": "foundations", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -803,6 +798,7 @@
         "osm:education:program_feeding_description": "fees", 
         "osm:education:students_female": "45", 
         "osm:education:students_male": "25", 
+        "osm:education:supported_by": "foundations", 
         "osm:education:teachers_female": "2", 
         "osm:education:teachers_male": "9", 
         "osm:education:teachers_trained": "2", 
@@ -810,7 +806,7 @@
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "often", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39014", 
+        "osm:id": "node/-102272", 
         "osm:laboratory": "science", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -821,9 +817,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2015", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -836,10 +832,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39016", 
+      "id": "node/-102274", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39016", 
+        "osm:id": "node/-102274", 
         "osm:location": "mathare", 
         "osm:name": "Kiboro Primary"
       }, 
@@ -853,7 +849,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39018", 
+      "id": "node/-102276", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -881,9 +877,9 @@
         "osm:education:teachers_female": "6", 
         "osm:education:teachers_male": "1", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Sometimes", 
+        "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39018", 
+        "osm:id": "node/-102276", 
         "osm:location": "mathare", 
         "osm:name": "Blessed Junior Academy", 
         "osm:operator:decription": "Annette Moraa Ongera", 
@@ -892,9 +888,9 @@
         "osm:start_date": "2017", 
         "osm:toilet:present": "yes", 
         "osm:toilet:teachers": "1", 
-        "osm:toilet:teachers_1": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -907,7 +903,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39020", 
+      "id": "node/-102278", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -932,9 +928,9 @@
         "osm:education:teachers_female": "3", 
         "osm:education:teachers_male": "4", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "city_council", 
-        "osm:id": "node/-39020", 
+        "osm:id": "node/-102278", 
         "osm:location": "mathare", 
         "osm:name": "St Veronica Primary School", 
         "osm:operator:type": "private", 
@@ -942,10 +938,9 @@
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
-        "osm:toilet:teachers_1": "null", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -958,10 +953,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39022", 
+      "id": "node/-102280", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39022", 
+        "osm:id": "node/-102280", 
         "osm:location": "mathare", 
         "osm:name": "Angel Girls School"
       }, 
@@ -975,12 +970,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39024", 
+      "id": "node/-102282", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39024", 
+        "osm:id": "node/-102282", 
         "osm:location": "mathare", 
-        "osm:name": "MISSION OF HOPE SCHOOL"
+        "osm:name": "Mission Of Hope School"
       }, 
       "type": "Feature"
     }, 
@@ -992,7 +987,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39026", 
+      "id": "node/-102284", 
       "properties": {
         "osm:amenity": "school", 
         "osm:building:classrooms": "12", 
@@ -1021,9 +1016,9 @@
         "osm:education:teachers_female": "7", 
         "osm:education:teachers_male": "3", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Sometimes", 
+        "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39026", 
+        "osm:id": "node/-102284", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Forward Educational Center", 
@@ -1033,9 +1028,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2012", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -1048,7 +1043,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39028", 
+      "id": "node/-102286", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1067,7 +1062,6 @@
         "osm:education:fees_level3": "2100", 
         "osm:education:fees_lunch": "100", 
         "osm:education:fees_per_term": "2100", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
@@ -1076,13 +1070,14 @@
         "osm:education:students": "400", 
         "osm:education:students_female": "256", 
         "osm:education:students_male": "144", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "18", 
         "osm:education:teachers_male": "12", 
         "osm:education:teachers_trained": "26", 
         "osm:education:tsc_employed": "4", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Sometimes", 
-        "osm:id": "node/-39028", 
+        "osm:electricity:operational_status": "sometimes", 
+        "osm:id": "node/-102286", 
         "osm:location": "mathare", 
         "osm:name": "Mathare Community Outreach", 
         "osm:operator:decription": "Church", 
@@ -1093,9 +1088,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1994", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Sometimes"
       }, 
       "type": "Feature"
@@ -1108,7 +1103,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39030", 
+      "id": "node/-102288", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1134,7 +1129,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "often ", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39030", 
+        "osm:id": "node/-102288", 
         "osm:location": "mathare", 
         "osm:name": "Jorum E Center", 
         "osm:operator:type": "private", 
@@ -1143,9 +1138,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2008", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -1158,10 +1153,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39032", 
+      "id": "node/-102290", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39032", 
+        "osm:id": "node/-102290", 
         "osm:location": "mathare", 
         "osm:name": "Rosken Education Centre"
       }, 
@@ -1175,7 +1170,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39034", 
+      "id": "node/-102292", 
       "properties": {
         "osm:accessibility": "small_cars,foot", 
         "osm:amenity": "school", 
@@ -1197,7 +1192,6 @@
         "osm:education:fees_level3": "3500", 
         "osm:education:fees_other": "1000_for_lunch", 
         "osm:education:fees_per_term": "3500", 
-        "osm:education:funding": "local_NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -1206,13 +1200,14 @@
         "osm:education:students": "259", 
         "osm:education:students_female": "122", 
         "osm:education:students_male": "137", 
+        "osm:education:supported_by": "local_NGOs", 
         "osm:education:teachers_female": "6", 
         "osm:education:teachers_male": "4", 
         "osm:education:teachers_trained": "2", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Never", 
+        "osm:electricity:operational_status": "never", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39034", 
+        "osm:id": "node/-102292", 
         "osm:location": "mathare", 
         "osm:name": "Abundant Life School", 
         "osm:operator:decription": "Community", 
@@ -1222,9 +1217,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2000", 
         "osm:toilet:present": "outside_public", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "Sometimes"
       }, 
       "type": "Feature"
@@ -1237,7 +1232,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39036", 
+      "id": "node/-102294", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1257,7 +1252,6 @@
         "osm:education:fees_level3": "4000", 
         "osm:education:fees_lunch": "150", 
         "osm:education:fees_per_term": "4000", 
-        "osm:education:funding": "local_NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -1267,24 +1261,25 @@
         "osm:education:students": "621", 
         "osm:education:students_female": "277", 
         "osm:education:students_male": "344", 
+        "osm:education:supported_by": "local_NGOs", 
         "osm:education:teachers_female": "12", 
         "osm:education:teachers_male": "11", 
         "osm:education:tsc_employed": "none", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Often", 
+        "osm:electricity:operational_status": "often", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39036", 
+        "osm:id": "node/-102294", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Valley View Academy", 
-        "osm:operator:type_1": "cbo", 
+        "osm:operator:type": "cbo", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:start_date": "1997", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "10", 
         "osm:toilets:male": "8", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -1297,10 +1292,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39038", 
+      "id": "node/-102296", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39038", 
+        "osm:id": "node/-102296", 
         "osm:location": "mathare", 
         "osm:name": "Missions Of Hope BH"
       }, 
@@ -1314,7 +1309,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39040", 
+      "id": "node/-102298", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1334,7 +1329,6 @@
         "osm:education:fees": "yes", 
         "osm:education:fees_level4": "25000", 
         "osm:education:fees_per_term": "53000", 
-        "osm:education:funding": "cdf,local_ngos,cbos,donors,foundations", 
         "osm:education:gender_type": "girls", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "boarding", 
@@ -1344,13 +1338,14 @@
         "osm:education:sponsored_by": "loreto_sisters", 
         "osm:education:students": "550", 
         "osm:education:students_female": "550", 
+        "osm:education:supported_by": "cdf,local_ngos,cbos,donors,foundations", 
         "osm:education:teachers_female": "17", 
         "osm:education:teachers_male": "9", 
         "osm:education:tsc_employed": "25", 
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "government registered", 
-        "osm:id": "node/-39040", 
+        "osm:id": "node/-102298", 
         "osm:internet_access": "yes", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
@@ -1364,8 +1359,8 @@
         "osm:start_date": "1952", 
         "osm:toilet:present": "yes", 
         "osm:toilet:teachers": "5", 
-        "osm:toilet:teachers_1": "2", 
         "osm:toilets:female": "15", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "NEVER"
       }, 
       "type": "Feature"
@@ -1378,12 +1373,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39042", 
+      "id": "node/-102300", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39042", 
+        "osm:id": "node/-102300", 
         "osm:location": "mathare", 
-        "osm:name": "HOPE NIGERIA"
+        "osm:name": "Hope Nigeria"
       }, 
       "type": "Feature"
     }, 
@@ -1395,7 +1390,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39044", 
+      "id": "node/-102302", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1419,21 +1414,21 @@
         "osm:education:fees_level3": "1500", 
         "osm:education:fees_other": "Boarding_pays_3000", 
         "osm:education:fees_per_term": "1500", 
-        "osm:education:funding": "community_based_organization", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_and_boarding", 
         "osm:education:program_feeding": "yes", 
         "osm:education:sponsored_by": "St james feeding and learning programme", 
         "osm:education:students": "320", 
+        "osm:education:supported_by": "community_based_organization", 
         "osm:education:teachers_female": "7", 
         "osm:education:teachers_male": "5", 
         "osm:education:teachers_trained": "3", 
         "osm:education:tsc_employed": "0", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Often", 
+        "osm:electricity:operational_status": "often", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39044", 
+        "osm:id": "node/-102302", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "St James Feeding And Programme Learning", 
@@ -1444,9 +1439,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1996", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "4", 
         "osm:toilets:male": "4", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Never"
       }, 
       "type": "Feature"
@@ -1459,7 +1454,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39046", 
+      "id": "node/-102304", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1494,7 +1489,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39046", 
+        "osm:id": "node/-102304", 
         "osm:location": "mathare", 
         "osm:name": "Mathare Old Primary School", 
         "osm:operator:decription": "public school", 
@@ -1520,7 +1515,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39048", 
+      "id": "node/-102306", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1530,16 +1525,16 @@
         "osm:building:material": "permanent", 
         "osm:education:extra_drama": "yes", 
         "osm:education:fees": "sponsored", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "girls", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
         "osm:education:students_female": "160", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "14", 
         "osm:education:teachers_male": "1", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:id": "node/-39048", 
+        "osm:id": "node/-102306", 
         "osm:location": "mathare", 
         "osm:name": "Shining Hope For Girls / Mathare School For Girls", 
         "osm:operator:decription": "SHOFCO", 
@@ -1548,8 +1543,8 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2014", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -1562,10 +1557,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39050", 
+      "id": "node/-102308", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39050", 
+        "osm:id": "node/-102308", 
         "osm:location": "mathare", 
         "osm:name": "Mathare Kosovo Outpsot And Community School"
       }, 
@@ -1579,7 +1574,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39052", 
+      "id": "node/-102310", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1590,7 +1585,7 @@
         "osm:building:material": "permanent", 
         "osm:education:exam_center": "yes", 
         "osm:education:extra_sports": "yes", 
-        "osm:education:fees_level4": "5000000", 
+        "osm:education:fees_level3": "5000000", 
         "osm:education:gender_type": "boys", 
         "osm:education:operate_as": "boarding", 
         "osm:education:program_feeding": "yes", 
@@ -1601,10 +1596,9 @@
         "osm:education:teachers_female": "1", 
         "osm:education:teachers_male": "10", 
         "osm:education:type": "secondary", 
-        "osm:electricity:operational_status": "Always", 
-        "osm:government:registered": "Government registered", 
-        "osm:government:registered_1": "Private", 
-        "osm:id": "node/-39052", 
+        "osm:electricity:operational_status": "always", 
+        "osm:government:registered": "Private", 
+        "osm:id": "node/-102310", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -1615,9 +1609,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1997", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "0", 
         "osm:toilets:male": "9", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Never"
       }, 
       "type": "Feature"
@@ -1630,10 +1624,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39054", 
+      "id": "node/-102312", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39054", 
+        "osm:id": "node/-102312", 
         "osm:location": "mathare", 
         "osm:name": "Tumaini School"
       }, 
@@ -1647,7 +1641,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39056", 
+      "id": "node/-102314", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1679,7 +1673,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39056", 
+        "osm:id": "node/-102314", 
         "osm:location": "mathare", 
         "osm:name": "New Mercy Care Primary School", 
         "osm:operator:type": "private", 
@@ -1702,7 +1696,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39058", 
+      "id": "node/-102316", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1717,9 +1711,8 @@
         "osm:education:extra_nature_club": "yes", 
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
-        "osm:education:fees": "yes", 
-        "osm:education:fees_2": "sponsored", 
-        "osm:education:fees_level4": "2500", 
+        "osm:education:fees": "partially_sponsored", 
+        "osm:education:fees_level3": "2500", 
         "osm:education:fees_per_term": "2500", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
@@ -1733,18 +1726,18 @@
         "osm:education:teachers_trained": "5", 
         "osm:education:tsc_employed": "1", 
         "osm:education:type": "secondary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39058", 
+        "osm:id": "node/-102316", 
         "osm:location": "mathare", 
         "osm:name": "Ngei Faith Academy", 
         "osm:operator:type": "religion", 
         "osm:room:staff": "yes", 
         "osm:start_date": "2001", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1_shared_with_male_teachers", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1_shared_with_male_teachers", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -1757,7 +1750,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39060", 
+      "id": "node/-102318", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1788,7 +1781,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39060", 
+        "osm:id": "node/-102318", 
         "osm:location": "mathare", 
         "osm:name": "Amson Education Center", 
         "osm:operator:type": "private", 
@@ -1812,10 +1805,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39062", 
+      "id": "node/-102320", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39062", 
+        "osm:id": "node/-102320", 
         "osm:location": "mathare", 
         "osm:name": "Braniac High School"
       }, 
@@ -1829,7 +1822,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39064", 
+      "id": "node/-102322", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -1849,10 +1842,10 @@
         "osm:education:program_feeding_description": "fees", 
         "osm:education:students": "528", 
         "osm:education:teachers_female": "2", 
-        "osm:education:type_1": "primary", 
+        "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39064", 
+        "osm:id": "node/-102322", 
         "osm:location": "mathare", 
         "osm:name": "Emmanuel Education Center", 
         "osm:operator:type": "cbo", 
@@ -1862,9 +1855,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2012", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -1877,7 +1870,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39066", 
+      "id": "node/-102324", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -1891,7 +1884,6 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "free_education", 
-        "osm:education:funding": "feed_the_child_program", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -1900,13 +1892,14 @@
         "osm:education:students": "1500", 
         "osm:education:students_female": "800", 
         "osm:education:students_male": "700", 
+        "osm:education:supported_by": "feed_the_child_program", 
         "osm:education:teachers_female": "30", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "27", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39066", 
+        "osm:id": "node/-102324", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Salama Primary School", 
@@ -1917,9 +1910,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1987", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "4", 
         "osm:toilets:female": "10", 
         "osm:toilets:male": "10", 
+        "osm:toilets:teachers": "4", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -1932,7 +1925,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39068", 
+      "id": "node/-102326", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -1961,7 +1954,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "city_councill", 
-        "osm:id": "node/-39068", 
+        "osm:id": "node/-102326", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -1972,9 +1965,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1978", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "10", 
         "osm:toilets:male": "10", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -1987,7 +1980,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39070", 
+      "id": "node/-102328", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -2014,7 +2007,7 @@
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39070", 
+        "osm:id": "node/-102328", 
         "osm:location": "mathare", 
         "osm:name": "Newlight Academy", 
         "osm:operator:type": "private", 
@@ -2022,9 +2015,7 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2014", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
-        "osm:toilets:female": "null", 
-        "osm:toilets:male": "null", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -2037,10 +2028,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39072", 
+      "id": "node/-102330", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39072", 
+        "osm:id": "node/-102330", 
         "osm:location": "mathare", 
         "osm:name": "Aeisha Collier Primary School"
       }, 
@@ -2054,10 +2045,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39074", 
+      "id": "node/-102332", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39074", 
+        "osm:id": "node/-102332", 
         "osm:location": "mathare", 
         "osm:name": "Mary Rosana Academy"
       }, 
@@ -2071,7 +2062,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39076", 
+      "id": "node/-102334", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2087,9 +2078,7 @@
         "osm:education:fees_level1": "1500", 
         "osm:education:fees_level2": "500", 
         "osm:education:fees_level3": "500", 
-        "osm:education:fees_level4": "500", 
         "osm:education:fees_lunch": "500", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -2097,6 +2086,7 @@
         "osm:education:program_feeding_description": "fees", 
         "osm:education:students_female": "586", 
         "osm:education:students_male": "565", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "18", 
         "osm:education:teachers_male": "5", 
         "osm:education:teachers_trained": "19", 
@@ -2104,7 +2094,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "often", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39076", 
+        "osm:id": "node/-102334", 
         "osm:location": "mathare", 
         "osm:name": "Valleybridge Primary School", 
         "osm:operator:decription": "Government Of Kenya", 
@@ -2114,9 +2104,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1985", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "16", 
         "osm:toilets:male": "14", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "never"
       }, 
       "type": "Feature"
@@ -2129,7 +2119,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39078", 
+      "id": "node/-102336", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2160,16 +2150,16 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "often", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39078", 
+        "osm:id": "node/-102336", 
         "osm:location": "mathare", 
         "osm:name": "Miracle Junoir", 
         "osm:operator:decription": "private", 
         "osm:operator:type": "private", 
         "osm:start_date": "2007", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -2182,7 +2172,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39080", 
+      "id": "node/-102338", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2196,7 +2186,6 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "free_education", 
-        "osm:education:funding": "international_NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -2204,13 +2193,14 @@
         "osm:education:program_feeding_description": "feed_the_child", 
         "osm:education:students_female": "1200", 
         "osm:education:students_male": "800", 
+        "osm:education:supported_by": "international_NGOs", 
         "osm:education:teachers_female": "28", 
         "osm:education:teachers_male": "12", 
         "osm:education:teachers_trained": "none", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39080", 
+        "osm:id": "node/-102338", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Ndururuno Primary School", 
@@ -2221,9 +2211,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1975", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "10", 
         "osm:toilets:male": "10", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -2236,7 +2226,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39082", 
+      "id": "node/-102340", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2266,7 +2256,7 @@
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39082", 
+        "osm:id": "node/-102340", 
         "osm:laboratory": "science", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -2278,9 +2268,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2006", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "5", 
         "osm:toilets:male": "5", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -2293,7 +2283,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39084", 
+      "id": "node/-102342", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2307,7 +2297,7 @@
         "osm:education:fees_level4": "8000", 
         "osm:education:fees_lunch": "1800", 
         "osm:education:fees_per_term": "2000-3000", 
-        "osm:education:gender_type": "Mixed boys and girls", 
+        "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_and_boarding_school", 
         "osm:education:program_feeding": "yes", 
@@ -2320,7 +2310,7 @@
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "city_councill", 
-        "osm:id": "node/-39084", 
+        "osm:id": "node/-102342", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -2332,10 +2322,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1988", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "5", 
-        "osm:toilet:teachers_1": "5", 
         "osm:toilets:female": "6", 
         "osm:toilets:male": "6", 
+        "osm:toilets:teachers": "5", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -2348,10 +2337,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39086", 
+      "id": "node/-102344", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39086", 
+        "osm:id": "node/-102344", 
         "osm:location": "mathare", 
         "osm:name": "Mogra Star Primary And Secondary Schools"
       }, 
@@ -2365,7 +2354,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39088", 
+      "id": "node/-102346", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2383,7 +2372,6 @@
         "osm:education:fees_level2": "400", 
         "osm:education:fees_level3": "400", 
         "osm:education:fees_lunch": "600000_for_the_whole_school", 
-        "osm:education:funding": "local_NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -2391,6 +2379,7 @@
         "osm:education:program_feeding_description": "fees", 
         "osm:education:students_female": "1050", 
         "osm:education:students_male": "1350", 
+        "osm:education:supported_by": "local_NGOs", 
         "osm:education:teachers_female": "33", 
         "osm:education:teachers_male": "11", 
         "osm:education:teachers_trained": "21", 
@@ -2398,7 +2387,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39088", 
+        "osm:id": "node/-102346", 
         "osm:location": "mathare", 
         "osm:name": "Daima Primary School", 
         "osm:operator:decription": "Nairobi City County", 
@@ -2408,9 +2397,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1990", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "18", 
         "osm:toilets:male": "12", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -2423,7 +2412,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39090", 
+      "id": "node/-102348", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2449,9 +2438,8 @@
         "osm:education:teachers_male": "15", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:government:registered": "government registered", 
-        "osm:government:registered_1": "private", 
-        "osm:id": "node/-39090", 
+        "osm:government:registered": "private", 
+        "osm:id": "node/-102348", 
         "osm:laboratory": "science", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -2478,7 +2466,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39092", 
+      "id": "node/-102350", 
       "properties": {
         "osm:accessibility": "small_cars,big_vehicles", 
         "osm:amenity": "school", 
@@ -2493,24 +2481,23 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "yes", 
-        "osm:education:fees_level4": "4500", 
+        "osm:education:fees_level3": "4500", 
         "osm:education:fees_per_term": "4500", 
-        "osm:education:funding": "local_NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
         "osm:education:students": "260", 
         "osm:education:students_female": "150", 
         "osm:education:students_male": "110", 
+        "osm:education:supported_by": "local_NGOs", 
         "osm:education:teachers_female": "4", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "0", 
         "osm:education:tsc_employed": "0", 
         "osm:education:type": "secondary", 
-        "osm:electricity:operational_status": "Always", 
-        "osm:government:registered": "Government registered", 
-        "osm:government:registered_1": "Private", 
-        "osm:id": "node/-39092", 
+        "osm:electricity:operational_status": "always", 
+        "osm:government:registered": "Private", 
+        "osm:id": "node/-102350", 
         "osm:laboratory": "science", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -2521,9 +2508,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2008", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "7", 
         "osm:toilets:male": "4", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Often"
       }, 
       "type": "Feature"
@@ -2536,10 +2523,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39094", 
+      "id": "node/-102352", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39094", 
+        "osm:id": "node/-102352", 
         "osm:location": "mathare", 
         "osm:name": "St Ann Preparatory"
       }, 
@@ -2553,7 +2540,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39096", 
+      "id": "node/-102354", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2580,9 +2567,9 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39096", 
+        "osm:id": "node/-102354", 
         "osm:location": "mathare", 
-        "osm:name": "Mary rosana academy", 
+        "osm:name": "Mary Rosana Academy", 
         "osm:operator:decription": "youth group", 
         "osm:operator:type": "youth group", 
         "osm:playground": "yes", 
@@ -2603,7 +2590,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39098", 
+      "id": "node/-102356", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2633,21 +2620,20 @@
         "osm:education:teachers_male": "6", 
         "osm:education:tsc_employed": "4", 
         "osm:education:type": "secondary", 
-        "osm:electricity:operational_status": "Always", 
-        "osm:government:registered": "unregistered but have applied for registration", 
-        "osm:government:registered_3": "Registered as a Business", 
-        "osm:id": "node/-39098", 
+        "osm:electricity:operational_status": "always", 
+        "osm:government:registered": "Registered as a Business", 
+        "osm:id": "node/-102356", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
-        "osm:name": "Affuluent secondary school", 
+        "osm:name": "Affuluent Secondary School", 
         "osm:playground": "yes", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -2660,7 +2646,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39100", 
+      "id": "node/-102358", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -2686,7 +2672,7 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39100", 
+        "osm:id": "node/-102358", 
         "osm:location": "mathare", 
         "osm:name": "Emmanuel Education Centre", 
         "osm:operator:type": "cbo", 
@@ -2695,9 +2681,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2012", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -2710,7 +2696,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39102", 
+      "id": "node/-102360", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2725,23 +2711,23 @@
         "osm:education:fees_level2": "1500", 
         "osm:education:fees_level3": "1800", 
         "osm:education:fees_per_term": "1500", 
-        "osm:education:funding": "faith_based_organisations", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
-        "osm:education:program_feeding_description_1": "sponsored", 
+        "osm:education:program_feeding_description": "sponsored", 
         "osm:education:sponsored_by": "church", 
         "osm:education:students": "130", 
         "osm:education:students_female": "82", 
         "osm:education:students_male": "58", 
+        "osm:education:supported_by": "faith_based_organisations", 
         "osm:education:teachers_female": "5", 
         "osm:education:teachers_male": "1", 
         "osm:education:teachers_trained": "2", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "never", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39102", 
+        "osm:id": "node/-102360", 
         "osm:location": "mathare", 
         "osm:name": "Mathare Methodist Education Center", 
         "osm:operator:type": "religious", 
@@ -2749,10 +2735,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2010", 
         "osm:toilet:present": "inside school compound", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
-        "osm:waste:garbage_disposal": "null"
+        "osm:toilets:teachers": "1"
       }, 
       "type": "Feature"
     }, 
@@ -2764,10 +2749,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39104", 
+      "id": "node/-102362", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39104", 
+        "osm:id": "node/-102362", 
         "osm:location": "mathare", 
         "osm:name": "Patsu Education Center"
       }, 
@@ -2781,7 +2766,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39106", 
+      "id": "node/-102364", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2813,7 +2798,7 @@
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered_1": "private", 
         "osm:government:registered_3": "faith based", 
-        "osm:id": "node/-39106", 
+        "osm:id": "node/-102364", 
         "osm:location": "mathare", 
         "osm:name": "St Maurus", 
         "osm:operator:type": "religious", 
@@ -2837,10 +2822,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39108", 
+      "id": "node/-102366", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39108", 
+        "osm:id": "node/-102366", 
         "osm:location": "mathare", 
         "osm:name": "Huruma Primary School"
       }, 
@@ -2854,7 +2839,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39110", 
+      "id": "node/-102368", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2884,7 +2869,7 @@
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered_1": "private", 
-        "osm:id": "node/-39110", 
+        "osm:id": "node/-102368", 
         "osm:laboratory": "science", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -2909,7 +2894,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39112", 
+      "id": "node/-102370", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -2940,10 +2925,9 @@
         "osm:education:teachers_male": "7", 
         "osm:education:teachers_trained": "18", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:government:registered_1": "Provisional APBET certificate", 
-        "osm:id": "node/-39112", 
+        "osm:id": "node/-102370", 
         "osm:internet_access": "yes", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
@@ -2955,9 +2939,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2000", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -2970,7 +2954,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39114", 
+      "id": "node/-102372", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3002,9 +2986,9 @@
         "osm:education:teachers_trained": "5", 
         "osm:education:tsc_employed": "null", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "mgcsd", 
-        "osm:id": "node/-39114", 
+        "osm:id": "node/-102372", 
         "osm:location": "mathare", 
         "osm:name": "Angels Of Mercy", 
         "osm:operator:type": "private", 
@@ -3026,7 +3010,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39116", 
+      "id": "node/-102374", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3042,7 +3026,6 @@
         "osm:education:fees_level3": "3500", 
         "osm:education:fees_lunch": "500", 
         "osm:education:fees_per_term": "3000", 
-        "osm:education:funding": "international_NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -3051,13 +3034,14 @@
         "osm:education:students": "210", 
         "osm:education:students_female": "105", 
         "osm:education:students_male": "105", 
+        "osm:education:supported_by": "international_NGOs", 
         "osm:education:teachers_female": "9", 
         "osm:education:teachers_male": "9", 
         "osm:education:teachers_trained": "13", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39116", 
+        "osm:id": "node/-102374", 
         "osm:location": "mathare", 
         "osm:name": "Blossom Children's Centre", 
         "osm:operator:type": "cbo", 
@@ -3065,9 +3049,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2006", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3080,10 +3064,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39118", 
+      "id": "node/-102376", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39118", 
+        "osm:id": "node/-102376", 
         "osm:location": "mathare", 
         "osm:name": "Glory Spring Community Centre"
       }, 
@@ -3097,7 +3081,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39120", 
+      "id": "node/-102378", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3110,7 +3094,7 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "yes", 
-        "osm:education:fees_level4": "20000", 
+        "osm:education:fees_level3": "20000", 
         "osm:education:fees_lunch": "3500", 
         "osm:education:fees_per_term": "20000", 
         "osm:education:gender_type": "mixed", 
@@ -3126,7 +3110,7 @@
         "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "moe", 
-        "osm:id": "node/-39120", 
+        "osm:id": "node/-102378", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
         "osm:name": "Huruma Mixed Secondary", 
@@ -3135,9 +3119,9 @@
         "osm:playground": "yes", 
         "osm:registration_date": "2017", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3150,7 +3134,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39122", 
+      "id": "node/-102380", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -3173,7 +3157,7 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39122", 
+        "osm:id": "node/-102380", 
         "osm:location": "mathare", 
         "osm:name": "Pillar Of Hope Education Centre", 
         "osm:operator:type": "cbo", 
@@ -3182,7 +3166,7 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2017", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3195,10 +3179,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39124", 
+      "id": "node/-102382", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39124", 
+        "osm:id": "node/-102382", 
         "osm:location": "mathare", 
         "osm:name": "Genesis Immaculate Primary And Secondary"
       }, 
@@ -3212,7 +3196,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39126", 
+      "id": "node/-102384", 
       "properties": {
         "osm:accessibility": "small_cars,foot", 
         "osm:amenity": "school", 
@@ -3230,7 +3214,7 @@
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
-        "osm:education:program_feeding_description_1": "sponsored", 
+        "osm:education:program_feeding_description": "sponsored", 
         "osm:education:pta": "yes", 
         "osm:education:students": "85", 
         "osm:education:students_female": "53", 
@@ -3240,7 +3224,7 @@
         "osm:education:teachers_trained": "4", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "often", 
-        "osm:id": "node/-39126", 
+        "osm:id": "node/-102384", 
         "osm:location": "mathare", 
         "osm:name": "Kasarani Victory Academy", 
         "osm:operator:decription": "private", 
@@ -3249,9 +3233,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2002", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -3264,7 +3248,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39128", 
+      "id": "node/-102386", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3299,7 +3283,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39128", 
+        "osm:id": "node/-102386", 
         "osm:location": "mathare", 
         "osm:name": "Stella Marris Community Education Centre", 
         "osm:operator:decription": "private", 
@@ -3323,7 +3307,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39130", 
+      "id": "node/-102388", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3339,7 +3323,6 @@
         "osm:education:fees_level3": "2500", 
         "osm:education:fees_lunch": "1200", 
         "osm:education:fees_per_term": "2000", 
-        "osm:education:funding": "Tusome_programme", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -3348,14 +3331,14 @@
         "osm:education:students": "328", 
         "osm:education:students_female": "195", 
         "osm:education:students_male": "158", 
+        "osm:education:supported_by": "Tusome_programme", 
         "osm:education:teachers_female": "8", 
         "osm:education:teachers_male": "3", 
         "osm:education:teachers_trained": "2", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
-        "osm:government:registered_1": "PRIVATE", 
-        "osm:government:registered_3": "CBO", 
-        "osm:id": "node/-39130", 
+        "osm:electricity:operational_status": "always", 
+        "osm:government:registered": "PRIVATE", 
+        "osm:id": "node/-102388", 
         "osm:location": "mathare", 
         "osm:name": "Rising Star Education Center", 
         "osm:operator:type": "private", 
@@ -3363,9 +3346,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2009", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3378,10 +3361,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39132", 
+      "id": "node/-102390", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39132", 
+        "osm:id": "node/-102390", 
         "osm:location": "mathare", 
         "osm:name": "Sancare Preparatory School"
       }, 
@@ -3395,7 +3378,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39134", 
+      "id": "node/-102392", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3410,7 +3393,6 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "yes", 
-        "osm:education:fees_1": "free_education", 
         "osm:education:fees_lunch": "1500", 
         "osm:education:fees_per_term": "4000", 
         "osm:education:gender_type": "mixed", 
@@ -3423,7 +3405,7 @@
         "osm:education:teachers_male": "5", 
         "osm:education:teachers_trained": "8", 
         "osm:electricity:operational_status": "always", 
-        "osm:id": "node/-39134", 
+        "osm:id": "node/-102392", 
         "osm:location": "mathare", 
         "osm:name": "Alliant Junior Academy", 
         "osm:operator:type": "Suplementary Private School", 
@@ -3432,9 +3414,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2001", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3447,7 +3429,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39136", 
+      "id": "node/-102394", 
       "properties": {
         "osm:amenity": "school", 
         "osm:barrier:security_fence": "yes", 
@@ -3464,21 +3446,20 @@
         "osm:education:fees_level1": "2100", 
         "osm:education:fees_level2": "2100", 
         "osm:education:fees_level3": "2100", 
-        "osm:education:fees_level4": "2100", 
         "osm:education:fees_lunch": "1000", 
         "osm:education:fees_per_term": "2100", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
         "osm:education:program_feeding_description": "fees", 
         "osm:education:pta": "yes", 
         "osm:education:students": "250", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "4", 
         "osm:education:teachers_male": "4", 
         "osm:education:teachers_trained": "2", 
         "osm:electricity:operational_status": "sometimes", 
-        "osm:id": "node/-39136", 
+        "osm:id": "node/-102394", 
         "osm:location": "mathare", 
         "osm:name": "Why not Junior Academy", 
         "osm:operator:type": "private", 
@@ -3487,9 +3468,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2006", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "sometimes"
       }, 
       "type": "Feature"
@@ -3502,10 +3483,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39138", 
+      "id": "node/-102396", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39138", 
+        "osm:id": "node/-102396", 
         "osm:location": "mathare", 
         "osm:name": "Mama Africa Italia Onlus"
       }, 
@@ -3519,7 +3500,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39140", 
+      "id": "node/-102398", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3533,8 +3514,7 @@
         "osm:education:extra_music": "yes", 
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
-        "osm:education:fees": "sponsored", 
-        "osm:education:fees_1": "free_education", 
+        "osm:education:fees": "free_education", 
         "osm:education:fees_level1": "900", 
         "osm:education:fees_level2": "650", 
         "osm:education:fees_lunch": "450", 
@@ -3555,7 +3535,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "city_council", 
-        "osm:id": "node/-39140", 
+        "osm:id": "node/-102398", 
         "osm:location": "mathare", 
         "osm:name": "Heidemarie Mathare 4A Primary", 
         "osm:operator:decription": "city_county", 
@@ -3564,9 +3544,9 @@
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "3", 
         "osm:toilets:female": "8", 
         "osm:toilets:male": "8", 
+        "osm:toilets:teachers": "3", 
         "osm:waste:garbage_disposal": "never"
       }, 
       "type": "Feature"
@@ -3579,7 +3559,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39142", 
+      "id": "node/-102400", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3613,7 +3593,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "government_registered", 
-        "osm:id": "node/-39142", 
+        "osm:id": "node/-102400", 
         "osm:laboratory": "science,computer", 
         "osm:location": "mathare", 
         "osm:name": "Mathare North Primary School", 
@@ -3637,7 +3617,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39144", 
+      "id": "node/-102402", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3654,17 +3634,17 @@
         "osm:education:fees": "yes", 
         "osm:education:fees_lunch": "2000", 
         "osm:education:fees_per_term": "3000", 
-        "osm:education:funding": "NGO", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
         "osm:education:program_feeding_description": "fees", 
         "osm:education:students": "132", 
+        "osm:education:supported_by": "NGO", 
         "osm:education:teachers_female": "4", 
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39144", 
+        "osm:id": "node/-102402", 
         "osm:location": "mathare", 
         "osm:name": "Destiny Kids Rescue Centre", 
         "osm:operator:type": "private", 
@@ -3672,9 +3652,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2010", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3687,7 +3667,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39146", 
+      "id": "node/-102404", 
       "properties": {
         "osm:accessibility": "foot", 
         "osm:amenity": "school", 
@@ -3702,28 +3682,28 @@
         "osm:education:fees_level2": "1200", 
         "osm:education:fees_level3": "1200", 
         "osm:education:fees_per_term": "1200", 
-        "osm:education:funding": "NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:pta": "yes", 
         "osm:education:students": "230", 
         "osm:education:students_female": "130", 
         "osm:education:students_male": "100", 
+        "osm:education:supported_by": "NGOs", 
         "osm:education:teachers_female": "5", 
         "osm:education:teachers_male": "2", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Often", 
-        "osm:government:registered_2": "Min._of_gender", 
-        "osm:id": "node/-39146", 
+        "osm:electricity:operational_status": "often", 
+        "osm:government:registered": "mgcsd", 
+        "osm:id": "node/-102404", 
         "osm:location": "mathare", 
         "osm:name": "Faith Newdawn Academy", 
         "osm:operator:decription": "Faith Celebration Church", 
         "osm:operator:type": "religious", 
         "osm:start_date": "2013", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "0", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "0", 
         "osm:waste:garbage_disposal": "Never"
       }, 
       "type": "Feature"
@@ -3736,7 +3716,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39148", 
+      "id": "node/-102406", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3744,14 +3724,13 @@
         "osm:barrier:security_fence": "yes", 
         "osm:building:classrooms": "4", 
         "osm:building:library": "yes", 
-        "osm:building:material_1": "semi_permanent", 
+        "osm:building:material": "semi_permanent", 
         "osm:education:exam_center": "yes", 
         "osm:education:extra_drama": "yes", 
         "osm:education:extra_music": "yes", 
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
-        "osm:education:fees": "yes", 
-        "osm:education:fees_1": "free_education", 
+        "osm:education:fees": "free_education", 
         "osm:education:fees_level1": "3500", 
         "osm:education:gender_type": "boys", 
         "osm:education:operate_as": "day_school", 
@@ -3764,9 +3743,9 @@
         "osm:education:teachers_male": "0", 
         "osm:education:teachers_trained": "4", 
         "osm:education:type": "pre_primary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "city_council", 
-        "osm:id": "node/-39148", 
+        "osm:id": "node/-102406", 
         "osm:location": "mathare", 
         "osm:name": "Alliant Junior Academy Preschool", 
         "osm:operator:type": "Suplementary School", 
@@ -3774,9 +3753,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2001", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3789,7 +3768,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39150", 
+      "id": "node/-102408", 
       "properties": {
         "osm:accessibility_2": "foot", 
         "osm:amenity": "school", 
@@ -3804,7 +3783,6 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "sponsor", 
-        "osm:education:funding": "foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_and_boarding", 
@@ -3814,14 +3792,15 @@
         "osm:education:students": "159", 
         "osm:education:students_female": "100", 
         "osm:education:students_male": "59", 
+        "osm:education:supported_by": "foreign_donors", 
         "osm:education:teachers_female": "5", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "2", 
         "osm:education:tsc_employed": "2", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:government:registered": "government_registered", 
-        "osm:id": "node/-39150", 
+        "osm:government:registered": "moe", 
+        "osm:id": "node/-102408", 
         "osm:location": "mathare", 
         "osm:name": "Ngotas Upendo Academy", 
         "osm:operator:decription": "Rev. Andula", 
@@ -3830,9 +3809,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1992", 
         "osm:toilet:present": "no", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3845,7 +3824,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39152", 
+      "id": "node/-102410", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3860,13 +3839,13 @@
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
-        "osm:education:program_feeding_description": "30_shillings_per_day\"", 
+        "osm:education:program_feeding_description": "30_shillings_per_day", 
         "osm:education:students": "160", 
         "osm:education:teachers_female": "3", 
         "osm:education:teachers_male": "3", 
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:id": "node/-39152", 
+        "osm:id": "node/-102410", 
         "osm:location": "mathare", 
         "osm:name": "Eljoy Education Centre", 
         "osm:operator:type": "CBO", 
@@ -3874,9 +3853,9 @@
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -3889,7 +3868,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39154", 
+      "id": "node/-102412", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3914,7 +3893,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "registered_as_a_business", 
-        "osm:id": "node/-39154", 
+        "osm:id": "node/-102412", 
         "osm:location": "mathare", 
         "osm:name": "Ananda Marga Academy", 
         "osm:operator:type": "religious", 
@@ -3923,9 +3902,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1995", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
-        "osm:toilets:male": "2"
+        "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1"
       }, 
       "type": "Feature"
     }, 
@@ -3937,7 +3916,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39156", 
+      "id": "node/-102414", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -3959,16 +3938,16 @@
         "osm:education:teachers_male": "3", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "often", 
-        "osm:government:registered_1": "private", 
-        "osm:id": "node/-39156", 
+        "osm:government:registered": "private", 
+        "osm:id": "node/-102414", 
         "osm:location": "mathare", 
         "osm:name": "Wakibe Junior Academy", 
         "osm:operator:type": "private", 
         "osm:room:kitchen": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -3981,10 +3960,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39158", 
+      "id": "node/-102416", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39158", 
+        "osm:id": "node/-102416", 
         "osm:location": "mathare", 
         "osm:name": "Samergo Glorious School"
       }, 
@@ -3998,10 +3977,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39160", 
+      "id": "node/-102418", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39160", 
+        "osm:id": "node/-102418", 
         "osm:location": "mathare", 
         "osm:name": "Motherway Education Centre"
       }, 
@@ -4015,7 +3994,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39162", 
+      "id": "node/-102420", 
       "properties": {
         "osm:accessibility": "small_cars", 
         "osm:amenity": "school", 
@@ -4030,7 +4009,6 @@
         "osm:education:fees_level1": "500", 
         "osm:education:fees_level2": "500", 
         "osm:education:fees_lunch": "240000", 
-        "osm:education:funding": "cbo,ngo,foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
@@ -4039,6 +4017,7 @@
         "osm:education:students": "354", 
         "osm:education:students_female": "189", 
         "osm:education:students_male": "165", 
+        "osm:education:supported_by": "cbo,ngo,foreign_donors", 
         "osm:education:teachers_female": "7", 
         "osm:education:teachers_male": "3", 
         "osm:education:teachers_trained": "4", 
@@ -4046,7 +4025,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39162", 
+        "osm:id": "node/-102420", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Daystar Junior School", 
@@ -4057,9 +4036,9 @@
         "osm:start_date": "2014", 
         "osm:toilet:present": "yes", 
         "osm:toilet:teachers": "1", 
-        "osm:toilet:teachers_1": "1", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -4072,7 +4051,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39164", 
+      "id": "node/-102422", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4109,7 +4088,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "often", 
         "osm:government:registered": "private", 
-        "osm:id": "node/-39164", 
+        "osm:id": "node/-102422", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Mawewa School", 
@@ -4133,10 +4112,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39166", 
+      "id": "node/-102424", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39166", 
+        "osm:id": "node/-102424", 
         "osm:location": "mathare", 
         "osm:name": "MissionOf Hope Mathare North"
       }, 
@@ -4150,7 +4129,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39168", 
+      "id": "node/-102426", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4184,7 +4163,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39168", 
+        "osm:id": "node/-102426", 
         "osm:location": "mathare", 
         "osm:name": "Destiny Kids Rescue Centre", 
         "osm:operator:type": "private", 
@@ -4208,7 +4187,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39170", 
+      "id": "node/-102428", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4238,8 +4217,8 @@
         "osm:education:teachers_female": "10", 
         "osm:education:teachers_male": "13", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
-        "osm:id": "node/-39170", 
+        "osm:electricity:operational_status": "always", 
+        "osm:id": "node/-102428", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
         "osm:name": "AIC Zion Educational Centre", 
@@ -4249,10 +4228,10 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2000", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "8", 
         "osm:toilets:male": "3", 
-        "osm:waste:garbage_disposal": "Always"
+        "osm:toilets:teachers": "1", 
+        "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
     }, 
@@ -4264,10 +4243,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39172", 
+      "id": "node/-102430", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39172", 
+        "osm:id": "node/-102430", 
         "osm:location": "mathare", 
         "osm:name": "Bridge International Academy"
       }, 
@@ -4281,10 +4260,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39174", 
+      "id": "node/-102432", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39174", 
+        "osm:id": "node/-102432", 
         "osm:location": "mathare", 
         "osm:name": "Mumo Boys And Girls Academy"
       }, 
@@ -4298,7 +4277,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39176", 
+      "id": "node/-102434", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4324,10 +4303,10 @@
         "osm:education:students_male": "55", 
         "osm:education:teachers_female": "4", 
         "osm:education:teachers_male": "5", 
-        "osm:education:type": "secondary,vocational", 
+        "osm:education:type": "secondary", 
         "osm:electricity:operational_status": "often", 
-        "osm:government:registered_2": "attorney_general", 
-        "osm:id": "node/-39176", 
+        "osm:government:registered": "attorney_general", 
+        "osm:id": "node/-102434", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -4336,11 +4315,11 @@
         "osm:playground": "yes", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
-        "osm:start_date": "2015 and 2008 respectively", 
+        "osm:start_date": "2015_and_2008_respectively", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "3", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "never"
       }, 
       "type": "Feature"
@@ -4353,12 +4332,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39178", 
+      "id": "node/-102436", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39178", 
+        "osm:id": "node/-102436", 
         "osm:location": "mathare", 
-        "osm:name": "\"Bishop Gitonga Academy"
+        "osm:name": "Bishop Gitonga Academy"
       }, 
       "type": "Feature"
     }, 
@@ -4370,10 +4349,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39180", 
+      "id": "node/-102438", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39180", 
+        "osm:id": "node/-102438", 
         "osm:location": "mathare", 
         "osm:name": "Vision Shiners Academy"
       }, 
@@ -4387,10 +4366,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39182", 
+      "id": "node/-102440", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39182", 
+        "osm:id": "node/-102440", 
         "osm:location": "mathare", 
         "osm:name": "Kingdom Living Now School"
       }, 
@@ -4404,7 +4383,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39184", 
+      "id": "node/-102442", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4420,7 +4399,6 @@
         "osm:education:extra_sports": "yes", 
         "osm:education:extra_woodwork": "yes", 
         "osm:education:fees": "yes", 
-        "osm:education:fees_1": "sponsors,government", 
         "osm:education:fees_lunch": "2500", 
         "osm:education:fees_per_term": "free", 
         "osm:education:gender_type": "mixed", 
@@ -4433,12 +4411,13 @@
         "osm:education:students": "200", 
         "osm:education:students_female": "60", 
         "osm:education:students_male": "140", 
+        "osm:education:supported_by": "sponsors,government", 
         "osm:education:teachers_female": "11", 
         "osm:education:teachers_male": "4", 
         "osm:education:tsc_employed": "15", 
-        "osm:electricity:operational_status": "Often", 
-        "osm:government:registered": "Government_registered", 
-        "osm:id": "node/-39184", 
+        "osm:electricity:operational_status": "often", 
+        "osm:government:registered": "moe", 
+        "osm:id": "node/-102442", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Mathare Special Training Centre", 
@@ -4448,9 +4427,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1982", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "4", 
         "osm:toilets:male": "4", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "Often"
       }, 
       "type": "Feature"
@@ -4463,7 +4442,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39186", 
+      "id": "node/-102444", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4482,7 +4461,6 @@
         "osm:education:extra_sports": "yes", 
         "osm:education:extra_woodwork": "yes", 
         "osm:education:fees": "sponsors", 
-        "osm:education:funding": "ngo", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -4493,13 +4471,14 @@
         "osm:education:students": "300", 
         "osm:education:students_female": "180", 
         "osm:education:students_male": "120", 
+        "osm:education:supported_by": "ngo", 
         "osm:education:teachers_female": "3", 
         "osm:education:teachers_male": "3", 
         "osm:education:teachers_trained": "6", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "private", 
-        "osm:id": "node/-39186", 
+        "osm:id": "node/-102444", 
         "osm:location": "mathare", 
         "osm:name": "Undugu Basic Education Unit Mathare", 
         "osm:operator:type": "ngo", 
@@ -4508,9 +4487,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1978", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "4", 
         "osm:toilets:male": "3", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -4523,7 +4502,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39188", 
+      "id": "node/-102446", 
       "properties": {
         "osm:accessibility": "small_cars,foot", 
         "osm:amenity": "school", 
@@ -4547,7 +4526,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered_1": "APBET", 
-        "osm:id": "node/-39188", 
+        "osm:id": "node/-102446", 
         "osm:location": "mathare", 
         "osm:name": "St Ruth Academy", 
         "osm:operator:decription": "church", 
@@ -4557,9 +4536,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2012", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers_1": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -4572,7 +4551,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39190", 
+      "id": "node/-102448", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4584,8 +4563,6 @@
         "osm:education:fees": "yes", 
         "osm:education:fees_level1": "2100", 
         "osm:education:fees_per_term": "2100", 
-        "osm:education:funding": "yes", 
-        "osm:education:funding_2": "NGO", 
         "osm:education:gender_type": "boys", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -4595,11 +4572,12 @@
         "osm:education:students": "120", 
         "osm:education:students_female": "62", 
         "osm:education:students_male": "58", 
+        "osm:education:supported_by": "NGO", 
         "osm:education:teachers_female": "3", 
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "CBO", 
-        "osm:id": "node/-39190", 
+        "osm:id": "node/-102448", 
         "osm:location": "mathare", 
         "osm:name": "Ngei PAG Education Center", 
         "osm:operator:type": "private", 
@@ -4607,9 +4585,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1987", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -4622,10 +4600,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39192", 
+      "id": "node/-102450", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39192", 
+        "osm:id": "node/-102450", 
         "osm:location": "mathare", 
         "osm:name": "Maji Mazuri Headstart Academy"
       }, 
@@ -4639,7 +4617,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39194", 
+      "id": "node/-102452", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4664,7 +4642,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "government_registered", 
-        "osm:id": "node/-39194", 
+        "osm:id": "node/-102452", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
         "osm:name": "Success Junior Academy", 
@@ -4688,7 +4666,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39196", 
+      "id": "node/-102454", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4702,20 +4680,21 @@
         "osm:education:extra_scouts/girl_guide": "yes", 
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "yes", 
+        "osm:education:fees_lunch": "1500", 
         "osm:education:fees_per_term": "3000", 
-        "osm:education:funding": "NGO", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
-        "osm:education:program_feeding_description_1": "1500", 
+        "osm:education:program_feeding_description": "fees", 
         "osm:education:students": "120", 
+        "osm:education:supported_by": "NGO", 
         "osm:education:teachers_female": "5", 
         "osm:education:teachers_male": "3", 
         "osm:education:teachers_trained": "7", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:id": "node/-39196", 
+        "osm:id": "node/-102454", 
         "osm:location": "mathare", 
         "osm:name": "Ngei PAG Education Center", 
         "osm:operator:type": "private", 
@@ -4724,9 +4703,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1987", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -4739,7 +4718,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39198", 
+      "id": "node/-102456", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4759,7 +4738,6 @@
         "osm:education:fees_level3": "150", 
         "osm:education:fees_lunch": "150", 
         "osm:education:fees_per_term": "150", 
-        "osm:education:funding": "cbo,foreign_donors", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -4770,17 +4748,18 @@
         "osm:education:students": "120", 
         "osm:education:students_female": "70", 
         "osm:education:students_male": "50", 
+        "osm:education:supported_by": "cbo,foreign_donors", 
         "osm:education:teachers_female": "11", 
         "osm:education:teachers_male": "5", 
         "osm:education:teachers_trained": "5", 
         "osm:education:type": "primary", 
-        "osm:electricity:operational_status": "Always", 
+        "osm:electricity:operational_status": "always", 
         "osm:government:registered": "government_registered", 
-        "osm:id": "node/-39198", 
+        "osm:id": "node/-102456", 
         "osm:internet_access": "yes", 
         "osm:laboratory": "computer", 
         "osm:location": "mathare", 
-        "osm:name": "St Michael C.E.C", 
+        "osm:name": "St Michael CEC", 
         "osm:operator:decription": "community_based_Orgnistion", 
         "osm:operator:type": "private", 
         "osm:playground": "yes", 
@@ -4788,9 +4767,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2008", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "Always"
       }, 
       "type": "Feature"
@@ -4803,12 +4782,12 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39200", 
+      "id": "node/-102458", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39200", 
+        "osm:id": "node/-102458", 
         "osm:location": "mathare", 
-        "osm:name": "AIPCA Nge2 Academy"
+        "osm:name": "AIPCA Ngei 2 Academy"
       }, 
       "type": "Feature"
     }, 
@@ -4820,7 +4799,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39202", 
+      "id": "node/-102460", 
       "properties": {
         "osm:accessibility": "small_cars,foot", 
         "osm:amenity": "school", 
@@ -4839,26 +4818,26 @@
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "yes", 
         "osm:education:fees_per_term": "3550", 
-        "osm:education:funding": "donor", 
         "osm:education:gender_type": "boys", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
         "osm:education:program_feeding_description": "2400", 
+        "osm:education:supported_by": "donor", 
         "osm:education:teachers_trained": "21", 
         "osm:education:tsc_employed": "3", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39202", 
+        "osm:id": "node/-102460", 
         "osm:internet_access": "yes", 
         "osm:location": "mathare", 
         "osm:name": "Sancare Preparatory School", 
         "osm:operator:type": "private", 
         "osm:room:staff": "yes", 
         "osm:start_date": "2012", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "3", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "often"
       }, 
       "type": "Feature"
@@ -4871,7 +4850,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39204", 
+      "id": "node/-102462", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4888,19 +4867,19 @@
         "osm:education:extra_sports": "yes", 
         "osm:education:fees": "sponsor", 
         "osm:education:fees_per_term": "500", 
-        "osm:education:funding": "sponsors", 
         "osm:education:operate_as": "day_school", 
         "osm:education:program_feeding": "yes", 
         "osm:education:sponsored_by": "Outside Kenya", 
         "osm:education:students": "466", 
         "osm:education:students_female": "266", 
         "osm:education:students_male": "230", 
+        "osm:education:supported_by": "sponsors", 
         "osm:education:teachers_female": "7", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "11", 
         "osm:education:type": "primary", 
         "osm:government:registered": "NGO", 
-        "osm:id": "node/-39204", 
+        "osm:id": "node/-102462", 
         "osm:internet_access": "yes", 
         "osm:location": "mathare", 
         "osm:name": "Furaha Comminty Centre", 
@@ -4909,9 +4888,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2004", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "4", 
-        "osm:toilets:male": "4"
+        "osm:toilets:male": "4", 
+        "osm:toilets:teachers": "1"
       }, 
       "type": "Feature"
     }, 
@@ -4923,7 +4902,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39206", 
+      "id": "node/-102464", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4942,7 +4921,7 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "government_registered", 
-        "osm:id": "node/-39206", 
+        "osm:id": "node/-102464", 
         "osm:location": "mathare", 
         "osm:name": "Eden Annex Preparatory School", 
         "osm:operator:type": "private", 
@@ -4951,9 +4930,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "2000", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "1", 
         "osm:toilets:male": "1", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -4966,7 +4945,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39208", 
+      "id": "node/-102466", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -4995,15 +4974,13 @@
         "osm:education:teachers_male": "3", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "never", 
-        "osm:field_28": "in_the_process", 
-        "osm:field_3": "39", 
         "osm:government:registered": "CBO,NGO", 
-        "osm:id": "node/-39208", 
+        "osm:id": "node/-102466", 
         "osm:location": "mathare", 
         "osm:name": "Elshadai Education Centre", 
         "osm:operator:type": "APBET", 
+        "osm:registration_date": "in_the_process", 
         "osm:room:kitchen": "yes", 
-        "osm:start_date": "I_don't_know", 
         "osm:toilet:present": "yes", 
         "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
@@ -5020,10 +4997,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39210", 
+      "id": "node/-102468", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39210", 
+        "osm:id": "node/-102468", 
         "osm:location": "mathare", 
         "osm:name": "Sancare Preparatory School"
       }, 
@@ -5037,7 +5014,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39212", 
+      "id": "node/-102470", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5062,21 +5039,20 @@
         "osm:education:teachers_female": "6", 
         "osm:education:teachers_male": "3", 
         "osm:education:teachers_trained": "4", 
-        "osm:education:type_1": "primary", 
+        "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
-        "osm:field_28": "in_the_process", 
-        "osm:id": "node/-39212", 
+        "osm:id": "node/-102470", 
         "osm:location": "mathare", 
         "osm:name": "Eljoy Education Center", 
         "osm:operator:type": "CBO", 
         "osm:playground": "yes", 
+        "osm:registration_date": "in_the_process", 
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
-        "osm:toilet:teachers_1": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -5089,7 +5065,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39214", 
+      "id": "node/-102472", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5129,7 +5105,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "not_registered", 
-        "osm:id": "node/-39214", 
+        "osm:id": "node/-102472", 
         "osm:location": "mathare", 
         "osm:name": "Missions of Hope International", 
         "osm:operator:type": "NGOs", 
@@ -5152,7 +5128,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39216", 
+      "id": "node/-102474", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5182,7 +5158,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39216", 
+        "osm:id": "node/-102474", 
         "osm:location": "mathare", 
         "osm:name": "Change a Life Learning Centre", 
         "osm:operator:decription": "Organisation Change a Life Ministry", 
@@ -5205,7 +5181,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39218", 
+      "id": "node/-102476", 
       "properties": {
         "osm:accessibility": "small_cars", 
         "osm:amenity": "school", 
@@ -5232,13 +5208,13 @@
         "osm:education:teachers_trained": "9", 
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "never", 
-        "osm:field_28": "2017", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39218", 
+        "osm:id": "node/-102476", 
         "osm:location": "mathare", 
         "osm:name": "Millenium Academy", 
         "osm:operator:decription": "W. Onyango Ogembo", 
         "osm:operator:type": "private", 
+        "osm:registration_date": "2017", 
         "osm:start_date": "2002", 
         "osm:toilet:present": "yes", 
         "osm:toilets:female": "1", 
@@ -5255,7 +5231,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39220", 
+      "id": "node/-102478", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5280,7 +5256,7 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered_1": "APBET", 
-        "osm:id": "node/-39220", 
+        "osm:id": "node/-102478", 
         "osm:location": "mathare", 
         "osm:name": "Pilot Education Day Care Center Preschool", 
         "osm:operator:type_7": "APBET", 
@@ -5304,7 +5280,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39222", 
+      "id": "node/-102480", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5334,16 +5310,16 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "faith_based_organisation", 
-        "osm:id": "node/-39222", 
+        "osm:id": "node/-102480", 
         "osm:location": "mathare", 
         "osm:name": "Amanda Marga Academy", 
         "osm:operator:decription": "fbo", 
         "osm:operator:type": "religious", 
         "osm:start_date": "1995", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -5356,7 +5332,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39224", 
+      "id": "node/-102482", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:barrier:gate": "yes", 
@@ -5383,7 +5359,7 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39224", 
+        "osm:id": "node/-102482", 
         "osm:location": "mathare", 
         "osm:name": "Pilot Education Day Care Center", 
         "osm:operator:type": "APBET", 
@@ -5391,9 +5367,9 @@
         "osm:room:kitchen": "yes", 
         "osm:room:staff": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -5406,10 +5382,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39226", 
+      "id": "node/-102484", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39226", 
+        "osm:id": "node/-102484", 
         "osm:location": "mathare", 
         "osm:name": "St Christopher Primary School"
       }, 
@@ -5423,7 +5399,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39228", 
+      "id": "node/-102486", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5459,7 +5435,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "city_council", 
-        "osm:id": "node/-39228", 
+        "osm:id": "node/-102486", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -5485,7 +5461,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39230", 
+      "id": "node/-102488", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5519,15 +5495,15 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "sometimes", 
         "osm:government:registered": "Registered_as_a_Business", 
-        "osm:id": "node/-39230", 
+        "osm:id": "node/-102488", 
         "osm:location": "mathare", 
         "osm:name": "Destiny Community Education", 
         "osm:operator:type": "cbo", 
         "osm:start_date": "2013", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "2", 
         "osm:toilets:female": "2", 
         "osm:toilets:male": "2", 
+        "osm:toilets:teachers": "2", 
         "osm:waste:garbage_disposal": "Sometimes"
       }, 
       "type": "Feature"
@@ -5540,14 +5516,14 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39232", 
+      "id": "node/-102490", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
         "osm:barrier:gate": "yes", 
         "osm:barrier:security_fence": "yes", 
         "osm:building:classrooms": "4", 
-        "osm:building:material_1": "semi_permanent", 
+        "osm:building:material": "semi_permanent", 
         "osm:education:board_of_management": "yes", 
         "osm:education:exam_affiliate": "KAG", 
         "osm:education:exam_center": "no", 
@@ -5569,15 +5545,15 @@
         "osm:education:type": "pre_primary", 
         "osm:electricity:operational_status": "never", 
         "osm:government:registered": "CBO,NGO", 
-        "osm:id": "node/-39232", 
+        "osm:id": "node/-102490", 
         "osm:location": "mathare", 
         "osm:name": "Elshadai Education Centre Pre-school", 
         "osm:operator:type": "APBET", 
         "osm:room:kitchen": "yes", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "3", 
         "osm:toilets:male": "3", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
@@ -5590,10 +5566,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39234", 
+      "id": "node/-102492", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39234", 
+        "osm:id": "node/-102492", 
         "osm:location": "mathare", 
         "osm:name": "Jessi School"
       }, 
@@ -5607,10 +5583,10 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39236", 
+      "id": "node/-102494", 
       "properties": {
         "osm:amenity": "school", 
-        "osm:id": "node/-39236", 
+        "osm:id": "node/-102494", 
         "osm:location": "mathare", 
         "osm:name": "Amanda Marga Academy"
       }, 
@@ -5624,7 +5600,7 @@
         ], 
         "type": "Point"
       }, 
-      "id": "node/-39238", 
+      "id": "node/-102496", 
       "properties": {
         "osm:accessibility": "small_cars,foot,big_vehicles", 
         "osm:amenity": "school", 
@@ -5645,7 +5621,6 @@
         "osm:education:fees_lunch": "50", 
         "osm:education:fees_other": "200_for_examination_fee", 
         "osm:education:fees_per_term": "2400", 
-        "osm:education:funding": "foreign_donors,NGOs", 
         "osm:education:gender_type": "mixed", 
         "osm:education:management_committee": "yes", 
         "osm:education:operate_as": "day_school", 
@@ -5656,6 +5631,7 @@
         "osm:education:students": "543", 
         "osm:education:students_female": "285", 
         "osm:education:students_male": "258", 
+        "osm:education:supported_by": "foreign_donors,NGOs", 
         "osm:education:teachers_female": "9", 
         "osm:education:teachers_male": "6", 
         "osm:education:teachers_trained": "12", 
@@ -5663,7 +5639,7 @@
         "osm:education:type": "primary", 
         "osm:electricity:operational_status": "always", 
         "osm:government:registered": "APBET", 
-        "osm:id": "node/-39238", 
+        "osm:id": "node/-102496", 
         "osm:laboratory": "science,computer", 
         "osm:laboratory:equipment": "yes", 
         "osm:location": "mathare", 
@@ -5675,9 +5651,9 @@
         "osm:room:staff": "yes", 
         "osm:start_date": "1994", 
         "osm:toilet:present": "yes", 
-        "osm:toilet:teachers": "1", 
         "osm:toilets:female": "4", 
         "osm:toilets:male": "4", 
+        "osm:toilets:teachers": "1", 
         "osm:waste:garbage_disposal": "always"
       }, 
       "type": "Feature"
