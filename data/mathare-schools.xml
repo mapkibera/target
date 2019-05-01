@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' generator='JOSM'>
-  <node id='-102236' action='modify' visible='true' lat='-1.26583' lon='36.843979'>
+  <node id='-39662' action='modify' lat='-1.26583' lon='36.843979'>
     <tag k='accessibility' v='small_cars,foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='6' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_sports' v='yes' />
@@ -23,10 +23,10 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='never' />
     <tag k='government:registered' v='city_council' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Community Care School' />
     <tag k='operator:decription' v='Church Of The Nazarene' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1996' />
@@ -36,18 +36,18 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102238' action='modify' visible='true' lat='-1.263088' lon='36.853238'>
+  <node id='-39664' action='modify' lat='-1.263088' lon='36.853238'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Joy Academy School' />
   </node>
-  <node id='-102240' action='modify' visible='true' lat='-1.265278' lon='36.850221'>
+  <node id='-39666' action='modify' lat='-1.265278' lon='36.850221'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Amaizing Day Care' />
   </node>
-  <node id='-102242' action='modify' visible='true' lat='-1.261399' lon='36.854222'>
+  <node id='-39668' action='modify' lat='-1.261399' lon='36.854222'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='19' />
     <tag k='building:material' v='semi_permanent' />
@@ -75,10 +75,10 @@
     <tag k='electricity:operational_status' v='sometimes' />
     <tag k='government:registered' v='government registered' />
     <tag k='government:registered_1' v='private' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Hope Baptist Academy' />
     <tag k='operator:decription' v='Baptist church' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2008' />
@@ -88,7 +88,7 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102244' action='modify' visible='true' lat='-1.262854' lon='36.854214'>
+  <node id='-39670' action='modify' lat='-1.262854' lon='36.854214'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
     <tag k='building:material' v='semi_permanent' />
@@ -130,14 +130,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102246' action='modify' visible='true' lat='-1.263956' lon='36.845192'>
+  <node id='-39672' action='modify' lat='-1.263956' lon='36.845192'>
     <tag k='amenity' v='school' />
     <tag k='name' v='MECDC' />
   </node>
-  <node id='-102248' action='modify' visible='true' lat='-1.265578' lon='36.845486'>
+  <node id='-39674' action='modify' lat='-1.265578' lon='36.845486'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='38' />
     <tag k='building:library' v='yes' />
@@ -180,7 +180,7 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102250' action='modify' visible='true' lat='-1.262584' lon='36.850176'>
+  <node id='-39676' action='modify' lat='-1.262584' lon='36.850176'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
     <tag k='building:material' v='semi_permanent' />
@@ -212,7 +212,7 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102252' action='modify' visible='true' lat='-1.265044' lon='36.844746'>
+  <node id='-39678' action='modify' lat='-1.265044' lon='36.844746'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
     <tag k='building:classrooms' v='10' />
@@ -242,9 +242,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='moe' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Star Education Center' />
     <tag k='operator:decription' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2005' />
     <tag k='toilet:present' v='yes' />
@@ -253,10 +253,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102254' action='modify' visible='true' lat='-1.266425' lon='36.847914'>
+  <node id='-39680' action='modify' lat='-1.266425' lon='36.847914'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='16' />
     <tag k='building:library' v='yes' />
@@ -283,10 +283,10 @@
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='city_council' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='St Teresas Primary School' />
     <tag k='operator:decription' v='public school' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1953' />
@@ -295,18 +295,18 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102256' action='modify' visible='true' lat='-1.265307' lon='36.851154'>
+  <node id='-39682' action='modify' lat='-1.265307' lon='36.851154'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Neci Education Centre' />
   </node>
-  <node id='-102258' action='modify' visible='true' lat='-1.265726' lon='36.845537'>
+  <node id='-39684' action='modify' lat='-1.265726' lon='36.845537'>
     <tag k='amenity' v='school' />
     <tag k='name' v='JOY COMMUNITY SCHOOL' />
   </node>
-  <node id='-102260' action='modify' visible='true' lat='-1.262826' lon='36.85367'>
+  <node id='-39686' action='modify' lat='-1.262826' lon='36.85367'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:exam_affiliate' v='Mcedo beijing school' />
@@ -337,10 +337,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102262' action='modify' visible='true' lat='-1.263168' lon='36.855557'>
+  <node id='-39688' action='modify' lat='-1.263168' lon='36.855557'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='10' />
     <tag k='building:library' v='yes' />
@@ -369,9 +369,9 @@
     <tag k='education:type' v='secondary' />
     <tag k='electricity:operational_status' v='sometimes' />
     <tag k='government:registered' v='government registered' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Mcdeo Beijing Academy' />
     <tag k='operator:type' v='NGO' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='toilet:teachers' v='1' />
@@ -380,10 +380,10 @@
     <tag k='toilets:present' v='yes' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102264' action='modify' visible='true' lat='-1.266177' lon='36.846175'>
+  <node id='-39690' action='modify' lat='-1.266177' lon='36.846175'>
     <tag k='accessibility' v='small_cars,foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='30' />
     <tag k='building:material' v='permanent' />
     <tag k='education:exam_affiliate' v='private school' />
@@ -414,10 +414,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Often' />
   </node>
-  <node id='-102266' action='modify' visible='true' lat='-1.262834' lon='36.8569'>
+  <node id='-39692' action='modify' lat='-1.262834' lon='36.8569'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:exam_affiliate' v='Mathare Old Primary School' />
@@ -457,7 +457,7 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Sometimes' />
   </node>
-  <node id='-102268' action='modify' visible='true' lat='-1.261543' lon='36.85427'>
+  <node id='-39694' action='modify' lat='-1.261543' lon='36.85427'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
     <tag k='building:classrooms' v='11' />
@@ -492,10 +492,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Often' />
   </node>
-  <node id='-102270' action='modify' visible='true' lat='-1.264512' lon='36.849539'>
+  <node id='-39696' action='modify' lat='-1.264512' lon='36.849539'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:material' v='permanent' />
@@ -521,10 +521,10 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='attorney_general' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Mum&apos;s Care Academy' />
     <tag k='operator:decription' v='Redeemed gospel church' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1978' />
@@ -534,10 +534,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102272' action='modify' visible='true' lat='-1.265155' lon='36.853114'>
+  <node id='-39698' action='modify' lat='-1.265155' lon='36.853114'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='12' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:exam_affiliate' v='Mcedo secondary school' />
@@ -577,14 +577,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102274' action='modify' visible='true' lat='-1.265756' lon='36.853886'>
+  <node id='-39700' action='modify' lat='-1.265756' lon='36.853886'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Kiboro Primary' />
   </node>
-  <node id='-102276' action='modify' visible='true' lat='-1.264906' lon='36.845724'>
+  <node id='-39702' action='modify' lat='-1.264906' lon='36.845724'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:material' v='permanent' />
     <tag k='education:exam_affiliate' v='Lighthouse Grace Academy' />
@@ -595,7 +595,6 @@
     <tag k='education:fees_level2' v='2100' />
     <tag k='education:fees_level3' v='2100' />
     <tag k='education:fees_lunch' v='1200' />
-    <tag k='education:fees_other' v='null' />
     <tag k='education:fees_per_term' v='2100' />
     <tag k='education:gender_type' v='mixed' />
     <tag k='education:management_committee' v='yes' />
@@ -622,10 +621,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102278' action='modify' visible='true' lat='-1.264408' lon='36.845155'>
+  <node id='-39704' action='modify' lat='-1.264408' lon='36.845155'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
@@ -648,9 +647,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='city_council' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='St Veronica Primary School' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='toilet:present' v='yes' />
@@ -659,15 +658,15 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102280' action='modify' visible='true' lat='-1.263236' lon='36.854196'>
+  <node id='-39706' action='modify' lat='-1.263236' lon='36.854196'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Angel Girls School' />
   </node>
-  <node id='-102282' action='modify' visible='true' lat='-1.262508' lon='36.850579'>
+  <node id='-39708' action='modify' lat='-1.262508' lon='36.850579'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Mission Of Hope School' />
   </node>
-  <node id='-102284' action='modify' visible='true' lat='-1.265291' lon='36.853191'>
+  <node id='-39710' action='modify' lat='-1.265291' lon='36.853191'>
     <tag k='amenity' v='school' />
     <tag k='building:classrooms' v='12' />
     <tag k='building:material' v='semi_permanent' />
@@ -698,9 +697,9 @@
     <tag k='electricity:operational_status' v='sometimes' />
     <tag k='government:registered' v='mgcsd' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Forward Educational Center' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2012' />
@@ -710,10 +709,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102286' action='modify' visible='true' lat='-1.263713' lon='36.857957'>
+  <node id='-39712' action='modify' lat='-1.263713' lon='36.857957'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='16' />
     <tag k='building:material' v='semi_permanent' />
@@ -743,10 +742,10 @@
     <tag k='education:tsc_employed' v='4' />
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='sometimes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Mathare Community Outreach' />
     <tag k='operator:decription' v='Church' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='registration_date' v='1996' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
@@ -757,10 +756,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Sometimes' />
   </node>
-  <node id='-102288' action='modify' visible='true' lat='-1.266173' lon='36.846095'>
+  <node id='-39714' action='modify' lat='-1.266173' lon='36.846095'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:material' v='semi_permanent' />
@@ -782,9 +781,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='often ' />
     <tag k='government:registered' v='APBET' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Jorum E Center' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2008' />
@@ -794,14 +793,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102290' action='modify' visible='true' lat='-1.265828' lon='36.853685'>
+  <node id='-39716' action='modify' lat='-1.265828' lon='36.853685'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Rosken Education Centre' />
   </node>
-  <node id='-102292' action='modify' visible='true' lat='-1.265385' lon='36.858789'>
+  <node id='-39718' action='modify' lat='-1.265385' lon='36.858789'>
     <tag k='accessibility' v='small_cars,foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='11' />
     <tag k='building:library' v='yes' />
@@ -834,10 +833,10 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='never' />
     <tag k='government:registered' v='mgcsd' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Abundant Life School' />
     <tag k='operator:decription' v='Community' />
     <tag k='operator:type' v='cbo' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2000' />
@@ -847,10 +846,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='Sometimes' />
   </node>
-  <node id='-102294' action='modify' visible='true' lat='-1.264805' lon='36.853106'>
+  <node id='-39720' action='modify' lat='-1.264805' lon='36.853106'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='19' />
     <tag k='building:library' v='yes' />
@@ -894,14 +893,14 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102296' action='modify' visible='true' lat='-1.26587' lon='36.853021'>
+  <node id='-39722' action='modify' lat='-1.26587' lon='36.853021'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Missions Of Hope BH' />
   </node>
-  <node id='-102298' action='modify' visible='true' lat='-1.263642' lon='36.846324'>
+  <node id='-39724' action='modify' lat='-1.263642' lon='36.846324'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='12' />
     <tag k='building:library' v='yes' />
@@ -936,10 +935,10 @@
     <tag k='internet_access' v='yes' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='St. Teresas Girls Secondary School' />
     <tag k='operator:decription' v='PUBLIC SCHOOL-but loreto sisters sponsors' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1952' />
@@ -949,14 +948,14 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='NEVER' />
   </node>
-  <node id='-102300' action='modify' visible='true' lat='-1.264604' lon='36.850376'>
+  <node id='-39726' action='modify' lat='-1.264604' lon='36.850376'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Hope Nigeria' />
   </node>
-  <node id='-102302' action='modify' visible='true' lat='-1.265345' lon='36.856201'>
+  <node id='-39728' action='modify' lat='-1.265345' lon='36.856201'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='13' />
     <tag k='building:library' v='yes' />
@@ -1004,10 +1003,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Never' />
   </node>
-  <node id='-102304' action='modify' visible='true' lat='-1.261949' lon='36.849614'>
+  <node id='-39730' action='modify' lat='-1.261949' lon='36.849614'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='17' />
     <tag k='building:material' v='semi_permanent' />
@@ -1052,10 +1051,10 @@
     <tag k='toilets:male' v='14' />
     <tag k='waste:garbage_disposal' v='never' />
   </node>
-  <node id='-102306' action='modify' visible='true' lat='-1.263795' lon='36.858162'>
+  <node id='-39732' action='modify' lat='-1.263795' lon='36.858162'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -1081,14 +1080,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102308' action='modify' visible='true' lat='-1.26326' lon='36.854859'>
+  <node id='-39734' action='modify' lat='-1.26326' lon='36.854859'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Mathare Kosovo Outpsot And Community School' />
   </node>
-  <node id='-102310' action='modify' visible='true' lat='-1.256513' lon='36.878632'>
+  <node id='-39736' action='modify' lat='-1.256513' lon='36.878632'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
@@ -1110,9 +1109,9 @@
     <tag k='government:registered' v='Private' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Kenya Muslim Academy' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1997' />
@@ -1122,14 +1121,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Never' />
   </node>
-  <node id='-102312' action='modify' visible='true' lat='-1.257509' lon='36.873245'>
+  <node id='-39738' action='modify' lat='-1.257509' lon='36.873245'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Tumaini School' />
   </node>
-  <node id='-102314' action='modify' visible='true' lat='-1.253509' lon='36.87106'>
+  <node id='-39740' action='modify' lat='-1.253509' lon='36.87106'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:material' v='permanent' />
     <tag k='education:exam_affiliate' v='to_other_schools' />
     <tag k='education:exam_center' v='no' />
@@ -1168,10 +1167,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102316' action='modify' visible='true' lat='-1.256503' lon='36.872071'>
+  <node id='-39742' action='modify' lat='-1.256503' lon='36.872071'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:material' v='semi_permanent' />
@@ -1209,10 +1208,10 @@
     <tag k='toilets:teachers' v='1_shared_with_male_teachers' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102318' action='modify' visible='true' lat='-1.252057' lon='36.869884'>
+  <node id='-39744' action='modify' lat='-1.252057' lon='36.869884'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:material' v='permanent' />
@@ -1251,14 +1250,14 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102320' action='modify' visible='true' lat='-1.261647' lon='36.874862'>
+  <node id='-39746' action='modify' lat='-1.261647' lon='36.874862'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Braniac High School' />
   </node>
-  <node id='-102322' action='modify' visible='true' lat='-1.25913325044' lon='36.87072817717'>
+  <node id='-39748' action='modify' lat='-1.25913325044' lon='36.87072817717'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_music' v='yes' />
@@ -1277,9 +1276,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='mgcsd' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Emmanuel Education Center' />
     <tag k='operator:type' v='cbo' />
-    <tag k='playground' v='yes' />
     <tag k='registration_date' v='2016' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
@@ -1290,10 +1289,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102324' action='modify' visible='true' lat='-1.260117' lon='36.871515'>
+  <node id='-39750' action='modify' lat='-1.260117' lon='36.871515'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='22' />
     <tag k='building:material' v='permanent' />
@@ -1319,10 +1318,10 @@
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='moe' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Salama Primary School' />
     <tag k='operator:decription' v='Nairobi City County' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1987' />
@@ -1332,10 +1331,10 @@
     <tag k='toilets:teachers' v='4' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102326' action='modify' visible='true' lat='-1.253484' lon='36.877822'>
+  <node id='-39752' action='modify' lat='-1.253484' lon='36.877822'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:material' v='permanent' />
@@ -1362,9 +1361,9 @@
     <tag k='government:registered' v='city_councill' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Sunflower Academy' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1978' />
@@ -1374,10 +1373,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102328' action='modify' visible='true' lat='-1.249894' lon='36.876739'>
+  <node id='-39754' action='modify' lat='-1.249894' lon='36.876739'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_music' v='yes' />
@@ -1409,18 +1408,18 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102330' action='modify' visible='true' lat='-1.257862' lon='36.871371'>
+  <node id='-39756' action='modify' lat='-1.257862' lon='36.871371'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Aeisha Collier Primary School' />
   </node>
-  <node id='-102332' action='modify' visible='true' lat='-1.255753' lon='36.871562'>
+  <node id='-39758' action='modify' lat='-1.255753' lon='36.871562'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Mary Rosana Academy' />
   </node>
-  <node id='-102334' action='modify' visible='true' lat='-1.253689' lon='36.87732'>
+  <node id='-39760' action='modify' lat='-1.253689' lon='36.87732'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='27' />
     <tag k='building:material' v='permanent' />
@@ -1448,10 +1447,10 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='often' />
     <tag k='government:registered' v='moe' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Valleybridge Primary School' />
     <tag k='operator:decription' v='Government Of Kenya' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1985' />
@@ -1461,10 +1460,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='never' />
   </node>
-  <node id='-102336' action='modify' visible='true' lat='-1.251217' lon='36.875061'>
+  <node id='-39762' action='modify' lat='-1.251217' lon='36.875061'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_drama' v='yes' />
@@ -1501,10 +1500,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102338' action='modify' visible='true' lat='-1.260939' lon='36.876672'>
+  <node id='-39764' action='modify' lat='-1.260939' lon='36.876672'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='28' />
     <tag k='building:material' v='permanent' />
@@ -1529,10 +1528,10 @@
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='moe' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Ndururuno Primary School' />
     <tag k='operator:decription' v='Government Of Kenya' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1975' />
@@ -1542,10 +1541,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102340' action='modify' visible='true' lat='-1.261187' lon='36.875701'>
+  <node id='-39766' action='modify' lat='-1.261187' lon='36.875701'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='12' />
     <tag k='building:material' v='permanent' />
@@ -1573,10 +1572,10 @@
     <tag k='government:registered' v='moe' />
     <tag k='laboratory' v='science' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Ndururuno Secondary School' />
     <tag k='operator:decription' v='Government Of Kenya' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2006' />
@@ -1586,10 +1585,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102342' action='modify' visible='true' lat='-1.251946' lon='36.873813'>
+  <node id='-39768' action='modify' lat='-1.251946' lon='36.873813'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:material' v='permanent,semi_permanent' />
     <tag k='education:extra_drama' v='yes' />
@@ -1614,10 +1613,10 @@
     <tag k='government:registered' v='city_councill' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Star Of Hope Secondary School' />
     <tag k='operator:decription' v='Jimmy Muraya (owner)' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1988' />
@@ -1627,14 +1626,14 @@
     <tag k='toilets:teachers' v='5' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102344' action='modify' visible='true' lat='-1.253694' lon='36.871042'>
+  <node id='-39770' action='modify' lat='-1.253694' lon='36.871042'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Mogra Star Primary And Secondary Schools' />
   </node>
-  <node id='-102346' action='modify' visible='true' lat='-1.260226' lon='36.870321'>
+  <node id='-39772' action='modify' lat='-1.260226' lon='36.870321'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='33' />
     <tag k='building:material' v='permanent,semi_permanent' />
@@ -1676,10 +1675,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102348' action='modify' visible='true' lat='-1.251098' lon='36.875466'>
+  <node id='-39774' action='modify' lat='-1.251098' lon='36.875466'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='33' />
     <tag k='building:library' v='yes' />
@@ -1704,10 +1703,10 @@
     <tag k='government:registered' v='private' />
     <tag k='laboratory' v='science' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='The Brainhouse School' />
     <tag k='operator:decription' v='school owner' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2004' />
@@ -1717,10 +1716,10 @@
     <tag k='toilets:male' v='12' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102350' action='modify' visible='true' lat='-1.255621' lon='36.872531'>
+  <node id='-39776' action='modify' lat='-1.255621' lon='36.872531'>
     <tag k='accessibility' v='small_cars,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='10' />
     <tag k='building:library' v='yes' />
@@ -1761,14 +1760,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Often' />
   </node>
-  <node id='-102352' action='modify' visible='true' lat='-1.259164' lon='36.869499'>
+  <node id='-39778' action='modify' lat='-1.259164' lon='36.869499'>
     <tag k='amenity' v='school' />
     <tag k='name' v='St Ann Preparatory' />
   </node>
-  <node id='-102354' action='modify' visible='true' lat='-1.25573465006' lon='36.87151611414'>
+  <node id='-39780' action='modify' lat='-1.25573465006' lon='36.87151611414'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='3' />
     <tag k='building:material' v='permanent' />
@@ -1802,10 +1801,10 @@
     <tag k='toilet:present' v='yes' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102356' action='modify' visible='true' lat='-1.260328' lon='36.876026'>
+  <node id='-39782' action='modify' lat='-1.260328' lon='36.876026'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:material' v='permanent' />
@@ -1835,8 +1834,8 @@
     <tag k='government:registered' v='Registered as a Business' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Affuluent Secondary School' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='toilet:present' v='yes' />
@@ -1845,10 +1844,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102358' action='modify' visible='true' lat='-1.259225' lon='36.870719'>
+  <node id='-39784' action='modify' lat='-1.259225' lon='36.870719'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_music' v='yes' />
@@ -1870,9 +1869,9 @@
     <tag k='education:type' v='pre_primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='mgcsd' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Emmanuel Education Centre' />
     <tag k='operator:type' v='cbo' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2012' />
@@ -1882,10 +1881,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102360' action='modify' visible='true' lat='-1.249874' lon='36.876873'>
+  <node id='-39786' action='modify' lat='-1.249874' lon='36.876873'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_drama' v='yes' />
     <tag k='education:extra_music' v='yes' />
@@ -1922,14 +1921,14 @@
     <tag k='toilets:male' v='1' />
     <tag k='toilets:teachers' v='1' />
   </node>
-  <node id='-102362' action='modify' visible='true' lat='-1.256358' lon='36.872281'>
+  <node id='-39788' action='modify' lat='-1.256358' lon='36.872281'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Patsu Education Center' />
   </node>
-  <node id='-102364' action='modify' visible='true' lat='-1.252923' lon='36.870436'>
+  <node id='-39790' action='modify' lat='-1.252923' lon='36.870436'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -1957,9 +1956,9 @@
     <tag k='electricity:operational_status' v='sometimes' />
     <tag k='government:registered_1' v='private' />
     <tag k='government:registered_3' v='faith based' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='St Maurus' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='more_than_15_years' />
@@ -1969,14 +1968,14 @@
     <tag k='toilets:male' v='2' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102366' action='modify' visible='true' lat='-1.258609' lon='36.874106'>
+  <node id='-39792' action='modify' lat='-1.258609' lon='36.874106'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Huruma Primary School' />
   </node>
-  <node id='-102368' action='modify' visible='true' lat='-1.253484' lon='36.870462'>
+  <node id='-39794' action='modify' lat='-1.253484' lon='36.870462'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:exam_center' v='yes' />
@@ -2015,10 +2014,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102370' action='modify' visible='true' lat='-1.258097' lon='36.876526'>
+  <node id='-39796' action='modify' lat='-1.258097' lon='36.876526'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='15' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -2049,10 +2048,10 @@
     <tag k='government:registered' v='APBET' />
     <tag k='internet_access' v='yes' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Edden Anex Preparatory School' />
     <tag k='operator:decription' v='Individual' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2000' />
@@ -2062,10 +2061,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102372' action='modify' visible='true' lat='-1.258626' lon='36.875598'>
+  <node id='-39798' action='modify' lat='-1.258626' lon='36.875598'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:material' v='permanent' />
     <tag k='education:exam_affiliate' v='Sunflower Academy' />
@@ -2105,10 +2104,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102374' action='modify' visible='true' lat='-1.251265' lon='36.874741'>
+  <node id='-39800' action='modify' lat='-1.251265' lon='36.874741'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:extra_drama' v='yes' />
     <tag k='education:extra_music' v='yes' />
@@ -2146,14 +2145,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102376' action='modify' visible='true' lat='-1.257893' lon='36.871351'>
+  <node id='-39802' action='modify' lat='-1.257893' lon='36.871351'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Glory Spring Community Centre' />
   </node>
-  <node id='-102378' action='modify' visible='true' lat='-1.259506' lon='36.872903'>
+  <node id='-39804' action='modify' lat='-1.259506' lon='36.872903'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='0' />
     <tag k='building:material' v='semi_permanent' />
@@ -2179,10 +2178,10 @@
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='moe' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Huruma Mixed Secondary' />
     <tag k='operator:decription' v='Government Of Kenya' />
     <tag k='operator:type' v='government' />
-    <tag k='playground' v='yes' />
     <tag k='registration_date' v='2017' />
     <tag k='toilet:present' v='yes' />
     <tag k='toilets:female' v='1' />
@@ -2190,10 +2189,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102380' action='modify' visible='true' lat='-1.25035025014' lon='36.87436864566'>
+  <node id='-39806' action='modify' lat='-1.25035025014' lon='36.87436864566'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='7' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_drama' v='yes' />
@@ -2212,9 +2211,9 @@
     <tag k='education:type' v='pre_primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='APBET' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Pillar Of Hope Education Centre' />
     <tag k='operator:type' v='cbo' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2017' />
@@ -2222,14 +2221,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102382' action='modify' visible='true' lat='-1.258249' lon='36.870453'>
+  <node id='-39808' action='modify' lat='-1.258249' lon='36.870453'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Genesis Immaculate Primary And Secondary' />
   </node>
-  <node id='-102384' action='modify' visible='true' lat='-1.251759' lon='36.875422'>
+  <node id='-39810' action='modify' lat='-1.251759' lon='36.875422'>
     <tag k='accessibility' v='small_cars,foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:exam_center' v='yes' />
     <tag k='education:extra_drama' v='yes' />
@@ -2265,10 +2264,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102386' action='modify' visible='true' lat='-1.252256' lon='36.870983'>
+  <node id='-39812' action='modify' lat='-1.252256' lon='36.870983'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='10' />
     <tag k='building:material' v='permanent' />
     <tag k='education:exam_affiliate' v='arrison education centre' />
@@ -2311,10 +2310,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102388' action='modify' visible='true' lat='-1.250441' lon='36.874387'>
+  <node id='-39814' action='modify' lat='-1.250441' lon='36.874387'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_drama' v='yes' />
     <tag k='education:extra_music' v='yes' />
@@ -2352,14 +2351,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102390' visible='true' lat='-1.259711' lon='36.865512'>
+  <node id='-39816' lat='-1.259711' lon='36.865512'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Sancare Preparatory School' />
   </node>
-  <node id='-102392' action='modify' visible='true' lat='-1.258866' lon='36.865297'>
+  <node id='-39818' action='modify' lat='-1.258866' lon='36.865297'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='9' />
     <tag k='building:library' v='yes' />
@@ -2382,9 +2381,9 @@
     <tag k='education:teachers_male' v='5' />
     <tag k='education:teachers_trained' v='8' />
     <tag k='electricity:operational_status' v='always' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Alliant Junior Academy' />
     <tag k='operator:type' v='Suplementary Private School' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2001' />
@@ -2394,7 +2393,7 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102394' action='modify' visible='true' lat='-1.261238' lon='36.862416'>
+  <node id='-39820' action='modify' lat='-1.261238' lon='36.862416'>
     <tag k='amenity' v='school' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='11' />
@@ -2423,9 +2422,9 @@
     <tag k='education:teachers_male' v='4' />
     <tag k='education:teachers_trained' v='2' />
     <tag k='electricity:operational_status' v='sometimes' />
-    <tag k='name' v='Why not Junior Academy' />
+    <tag k='leisure' v='playground' />
+    <tag k='name' v='Why Not Junior Academy' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2006' />
@@ -2435,14 +2434,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='sometimes' />
   </node>
-  <node id='-102396' visible='true' lat='-1.261088' lon='36.863253'>
+  <node id='-39822' lat='-1.261088' lon='36.863253'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Mama Africa Italia Onlus' />
   </node>
-  <node id='-102398' action='modify' visible='true' lat='-1.257571' lon='36.863702'>
+  <node id='-39824' action='modify' lat='-1.257571' lon='36.863702'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='30' />
     <tag k='building:library' v='yes' />
@@ -2473,10 +2472,10 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='sometimes' />
     <tag k='government:registered' v='city_council' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Heidemarie Mathare 4A Primary' />
     <tag k='operator:decription' v='city_county' />
     <tag k='operator:type' v='public' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='toilet:present' v='yes' />
@@ -2485,7 +2484,7 @@
     <tag k='toilets:teachers' v='3' />
     <tag k='waste:garbage_disposal' v='never' />
   </node>
-  <node id='-102400' visible='true' lat='-1.253949' lon='36.868957'>
+  <node id='-39826' lat='-1.253949' lon='36.868957'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
     <tag k='building:classrooms' v='27' />
@@ -2530,7 +2529,7 @@
     <tag k='toilets:male' v='18' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102402' action='modify' visible='true' lat='-1.259688' lon='36.865942'>
+  <node id='-39828' action='modify' lat='-1.259688' lon='36.865942'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
     <tag k='barrier:gate' v='yes' />
@@ -2567,10 +2566,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102404' action='modify' visible='true' lat='-1.262796' lon='36.861518'>
+  <node id='-39830' action='modify' lat='-1.262796' lon='36.861518'>
     <tag k='accessibility' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='7' />
     <tag k='building:material' v='semi_permanent' />
     <tag k='education:exam_affiliate' v='yes' />
@@ -2603,10 +2602,10 @@
     <tag k='toilets:teachers' v='0' />
     <tag k='waste:garbage_disposal' v='Never' />
   </node>
-  <node id='-102406' action='modify' visible='true' lat='-1.259106' lon='36.865349'>
+  <node id='-39832' action='modify' lat='-1.259106' lon='36.865349'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:library' v='yes' />
@@ -2642,10 +2641,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102408' action='modify' visible='true' lat='-1.25986' lon='36.863638'>
+  <node id='-39834' action='modify' lat='-1.25986' lon='36.863638'>
     <tag k='accessibility_2' v='foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='11' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='semi_permanent' />
@@ -2685,10 +2684,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102410' action='modify' visible='true' lat='-1.258678' lon='36.865959'>
+  <node id='-39836' action='modify' lat='-1.258678' lon='36.865959'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='3' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -2705,9 +2704,9 @@
     <tag k='education:teachers_male' v='3' />
     <tag k='education:type' v='pre_primary' />
     <tag k='electricity:operational_status' v='always' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Eljoy Education Centre' />
     <tag k='operator:type' v='CBO' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='toilet:present' v='yes' />
@@ -2716,10 +2715,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102412' action='modify' visible='true' lat='-1.25905360035' lon='36.86864977172'>
+  <node id='-39838' action='modify' lat='-1.25905360035' lon='36.86864977172'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:library' v='yes' />
     <tag k='education:exam_center' v='yes' />
@@ -2740,9 +2739,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='registered_as_a_business' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Ananda Marga Academy' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1995' />
@@ -2751,10 +2750,10 @@
     <tag k='toilets:male' v='2' />
     <tag k='toilets:teachers' v='1' />
   </node>
-  <node id='-102414' action='modify' visible='true' lat='-1.260425' lon='36.865695'>
+  <node id='-39840' action='modify' lat='-1.260425' lon='36.865695'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='6' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='semi_permanent' />
@@ -2782,15 +2781,15 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102416' visible='true' lat='-1.257933' lon='36.866992'>
+  <node id='-39842' lat='-1.257933' lon='36.866992'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Samergo Glorious School' />
   </node>
-  <node id='-102418' visible='true' lat='-1.254026' lon='36.868683'>
+  <node id='-39844' lat='-1.254026' lon='36.868683'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Motherway Education Centre' />
   </node>
-  <node id='-102420' action='modify' visible='true' lat='-1.258877' lon='36.863108'>
+  <node id='-39846' action='modify' lat='-1.258877' lon='36.863108'>
     <tag k='accessibility' v='small_cars' />
     <tag k='amenity' v='school' />
     <tag k='building:classrooms' v='15' />
@@ -2834,10 +2833,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102422' visible='true' lat='-1.256139' lon='36.866514'>
+  <node id='-39848' action='modify' lat='-1.256139' lon='36.866514'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
@@ -2882,14 +2881,14 @@
     <tag k='toilets:male' v='3' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102424' visible='true' lat='-1.25399' lon='36.868824'>
+  <node id='-39850' lat='-1.25399' lon='36.868824'>
     <tag k='amenity' v='school' />
     <tag k='name' v='MissionOf Hope Mathare North' />
   </node>
-  <node id='-102426' action='modify' visible='true' lat='-1.25968679973' lon='36.865942'>
+  <node id='-39852' action='modify' lat='-1.25968679973' lon='36.865942'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='7' />
     <tag k='building:library' v='yes' />
@@ -2919,9 +2918,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='APBET' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Destiny Kids Rescue Centre' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='no' />
     <tag k='registration_date' v='2017' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
@@ -2931,10 +2930,10 @@
     <tag k='toilets:female' v='1' />
     <tag k='toilets:male' v='2' />
   </node>
-  <node id='-102428' action='modify' visible='true' lat='-1.263488' lon='36.862142'>
+  <node id='-39854' action='modify' lat='-1.263488' lon='36.862142'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -2962,9 +2961,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='AIC Zion Educational Centre' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2000' />
@@ -2974,18 +2973,18 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102430' visible='true' lat='-1.26252' lon='36.86032'>
+  <node id='-39856' lat='-1.26252' lon='36.86032'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Bridge International Academy' />
   </node>
-  <node id='-102432' visible='true' lat='-1.262259' lon='36.86281'>
+  <node id='-39858' lat='-1.262259' lon='36.86281'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Mumo Boys And Girls Academy' />
   </node>
-  <node id='-102434' action='modify' visible='true' lat='-1.26121' lon='36.86388'>
+  <node id='-39860' action='modify' lat='-1.26121' lon='36.86388'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -3012,9 +3011,9 @@
     <tag k='government:registered' v='attorney_general' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Balozi School And Balozi Training Institutes' />
     <tag k='operator:type' v='cbo' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2015_and_2008_respectively' />
@@ -3024,22 +3023,22 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='never' />
   </node>
-  <node id='-102436' action='modify' visible='true' lat='-1.261553' lon='36.865724'>
+  <node id='-39862' action='modify' lat='-1.261553' lon='36.865724'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Bishop Gitonga Academy' />
   </node>
-  <node id='-102438' visible='true' lat='-1.25946' lon='36.86649'>
+  <node id='-39864' lat='-1.25946' lon='36.86649'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Vision Shiners Academy' />
   </node>
-  <node id='-102440' visible='true' lat='-1.260479' lon='36.862886'>
+  <node id='-39866' lat='-1.260479' lon='36.862886'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Kingdom Living Now School' />
   </node>
-  <node id='-102442' action='modify' visible='true' lat='-1.260912' lon='36.863408'>
+  <node id='-39868' action='modify' lat='-1.260912' lon='36.863408'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='13' />
     <tag k='building:material' v='permanent' />
@@ -3070,9 +3069,9 @@
     <tag k='electricity:operational_status' v='often' />
     <tag k='government:registered' v='moe' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Mathare Special Training Centre' />
     <tag k='operator:decription' v='parents/ ministry_of_educaton' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1982' />
@@ -3082,10 +3081,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='Often' />
   </node>
-  <node id='-102444' action='modify' visible='true' lat='-1.261335' lon='36.863969'>
+  <node id='-39870' action='modify' lat='-1.261335' lon='36.863969'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='6' />
     <tag k='building:material' v='permanent' />
@@ -3117,9 +3116,9 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='sometimes' />
     <tag k='government:registered' v='private' />
+    <tag k='leisure' v='yes' />
     <tag k='name' v='Undugu Basic Education Unit Mathare' />
     <tag k='operator:type' v='ngo' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1978' />
@@ -3129,10 +3128,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102446' action='modify' visible='true' lat='-1.260568' lon='36.866382'>
+  <node id='-39872' action='modify' lat='-1.260568' lon='36.866382'>
     <tag k='accessibility' v='small_cars,foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='7' />
     <tag k='building:material' v='semi_permanent' />
@@ -3152,10 +3151,10 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered_1' v='APBET' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='St Ruth Academy' />
     <tag k='operator:decription' v='church' />
     <tag k='operator:type' v='religious' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2012' />
@@ -3165,10 +3164,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102448' action='modify' visible='true' lat='-1.26109875236' lon='36.86671478607'>
+  <node id='-39874' action='modify' lat='-1.26109875236' lon='36.86671478607'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='3' />
     <tag k='building:material' v='semi_permanent' />
@@ -3201,14 +3200,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102450' visible='true' lat='-1.264323' lon='36.859497'>
+  <node id='-39876' lat='-1.264323' lon='36.859497'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Maji Mazuri Headstart Academy' />
   </node>
-  <node id='-102452' visible='true' lat='-1.253285' lon='36.867579'>
+  <node id='-39878' action='modify' lat='-1.253285' lon='36.867579'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_drama' v='yes' />
@@ -3241,10 +3240,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102454' action='modify' visible='true' lat='-1.26106' lon='36.866802'>
+  <node id='-39880' action='modify' lat='-1.26106' lon='36.866802'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
@@ -3268,9 +3267,9 @@
     <tag k='education:teachers_trained' v='7' />
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Ngei PAG Education Center' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1987' />
@@ -3280,10 +3279,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102456' action='modify' visible='true' lat='-1.261242' lon='36.86254'>
+  <node id='-39882' action='modify' lat='-1.261242' lon='36.86254'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='10' />
     <tag k='building:library' v='yes' />
@@ -3318,10 +3317,10 @@
     <tag k='government:registered' v='government_registered' />
     <tag k='internet_access' v='yes' />
     <tag k='laboratory' v='computer' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='St Michael CEC' />
     <tag k='operator:decription' v='community_based_Orgnistion' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2008' />
@@ -3331,14 +3330,14 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102458' action='modify' visible='true' lat='-1.259647' lon='36.866867'>
+  <node id='-39884' action='modify' lat='-1.259647' lon='36.866867'>
     <tag k='amenity' v='school' />
     <tag k='name' v='AIPCA Ngei 2 Academy' />
   </node>
-  <node id='-102460' action='modify' visible='true' lat='-1.259522' lon='36.866321'>
+  <node id='-39886' action='modify' lat='-1.259522' lon='36.866321'>
     <tag k='accessibility' v='small_cars,foot' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='38' />
     <tag k='building:library' v='yes' />
@@ -3373,10 +3372,10 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='often' />
   </node>
-  <node id='-102462' action='modify' visible='true' lat='-1.257808' lon='36.868154'>
+  <node id='-39888' action='modify' lat='-1.257808' lon='36.868154'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='semi_permanent' />
@@ -3412,10 +3411,10 @@
     <tag k='toilets:male' v='4' />
     <tag k='toilets:teachers' v='1' />
   </node>
-  <node id='-102464' action='modify' visible='true' lat='-1.259937' lon='36.868491'>
+  <node id='-39890' action='modify' lat='-1.259937' lon='36.868491'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='3' />
     <tag k='building:material' v='permanent' />
     <tag k='education:extra_sports' v='yes' />
@@ -3430,9 +3429,9 @@
     <tag k='education:type' v='pre_primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='government_registered' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Eden Annex Preparatory School' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='2000' />
@@ -3442,10 +3441,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102466' action='modify' visible='true' lat='-1.258645' lon='36.868333'>
+  <node id='-39892' action='modify' lat='-1.258645' lon='36.868333'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
@@ -3481,14 +3480,14 @@
     <tag k='toilets:male' v='3' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102468' visible='true' lat='-1.259635' lon='36.865604'>
+  <node id='-39894' lat='-1.259635' lon='36.865604'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Sancare Preparatory School' />
   </node>
-  <node id='-102470' action='modify' visible='true' lat='-1.25860506392' lon='36.86594076158'>
+  <node id='-39896' action='modify' lat='-1.25860506392' lon='36.86594076158'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='building:classrooms' v='8' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='permanent' />
@@ -3511,9 +3510,9 @@
     <tag k='education:teachers_trained' v='4' />
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Eljoy Education Center' />
     <tag k='operator:type' v='CBO' />
-    <tag k='playground' v='yes' />
     <tag k='registration_date' v='in_the_process' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
@@ -3523,7 +3522,7 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102472' visible='true' lat='-1.26123' lon='36.862532'>
+  <node id='-39898' lat='-1.26123' lon='36.862532'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
     <tag k='barrier:gate' v='yes' />
@@ -3573,10 +3572,10 @@
     <tag k='toilets:male' v='4' />
     <tag k='waste:garbage_disposal' v='Always' />
   </node>
-  <node id='-102474' visible='true' lat='-1.254957' lon='36.868618'>
+  <node id='-39900' action='modify' lat='-1.254957' lon='36.868618'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='7' />
     <tag k='building:library' v='yes' />
@@ -3602,7 +3601,7 @@
     <tag k='education:type' v='primary' />
     <tag k='electricity:operational_status' v='always' />
     <tag k='government:registered' v='APBET' />
-    <tag k='name' v='Change a Life Learning Centre' />
+    <tag k='name' v='Change A Life Learning Centre' />
     <tag k='operator:decription' v='Organisation Change a Life Ministry' />
     <tag k='operator:type' v='religious' />
     <tag k='room:kitchen' v='yes' />
@@ -3613,10 +3612,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102476' action='modify' visible='true' lat='-1.259344' lon='36.86581'>
+  <node id='-39902' action='modify' lat='-1.259344' lon='36.86581'>
     <tag k='accessibility' v='small_cars' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='education:board_of_management' v='yes' />
     <tag k='education:exam_affiliate' v='Top High Muslim Academy' />
     <tag k='education:exam_center' v='no' />
@@ -3650,10 +3649,10 @@
     <tag k='toilets:male' v='1' />
     <tag k='waste:garbage_disposal' v='never' />
   </node>
-  <node id='-102478' visible='true' lat='-1.25921' lon='36.864411'>
+  <node id='-39904' action='modify' lat='-1.25915964443' lon='36.864411'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='6' />
     <tag k='building:library' v='yes' />
@@ -3673,23 +3672,23 @@
     <tag k='education:teachers_male' v='0' />
     <tag k='education:type' v='pre_primary' />
     <tag k='electricity:operational_status' v='sometimes' />
-    <tag k='government:registered_1' v='APBET' />
+    <tag k='government:registered' v='APBET' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Pilot Education Day Care Center Preschool' />
-    <tag k='operator:type_7' v='APBET' />
-    <tag k='playground' v='yes' />
+    <tag k='operator:type' v='APBET' />
     <tag k='registration_date' v='2017' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='toilet:present' v='yes' />
-    <tag k='toilet:teachers' v='1' />
     <tag k='toilets:female' v='2' />
     <tag k='toilets:male' v='2' />
+    <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102480' action='modify' visible='true' lat='-1.25905060035' lon='36.86849029131'>
+  <node id='-39906' action='modify' lat='-1.25905060035' lon='36.86849029131'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:library' v='yes' />
     <tag k='building:material' v='semi_permanent' />
@@ -3725,51 +3724,14 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102482' action='modify' visible='true' lat='-1.25921' lon='36.864411'>
-    <tag k='accessibility' v='small_cars,foot,big_vehicles' />
-    <tag k='barrier:gate' v='yes' />
-    <tag k='barrier:security_fence' v='yes' />
-    <tag k='building:classrooms' v='7' />
-    <tag k='building:library' v='yes' />
-    <tag k='building:material' v='semi_permanent' />
-    <tag k='education:board_of_management' v='yes' />
-    <tag k='education:exam_center' v='yes' />
-    <tag k='education:extra_drama' v='yes' />
-    <tag k='education:extra_scouts/girl_guide' v='yes' />
-    <tag k='education:extra_sports' v='yes' />
-    <tag k='education:fees' v='yes' />
-    <tag k='education:fees_per_term' v='4400' />
-    <tag k='education:gender_type' v='mixed' />
-    <tag k='education:operate_as' v='day_school' />
-    <tag k='education:program_feeding' v='yes' />
-    <tag k='education:program_feeding_description' v='3000' />
-    <tag k='education:students' v='392' />
-    <tag k='education:students_female' v='190' />
-    <tag k='education:students_male' v='202' />
-    <tag k='education:teachers_female' v='2' />
-    <tag k='education:teachers_male' v='7' />
-    <tag k='education:type' v='pre_primary' />
-    <tag k='electricity:operational_status' v='sometimes' />
-    <tag k='government:registered' v='APBET' />
-    <tag k='name' v='Pilot Education Day Care Center' />
-    <tag k='operator:type' v='APBET' />
-    <tag k='playground' v='yes' />
-    <tag k='room:kitchen' v='yes' />
-    <tag k='room:staff' v='yes' />
-    <tag k='toilet:present' v='yes' />
-    <tag k='toilets:female' v='2' />
-    <tag k='toilets:male' v='2' />
-    <tag k='toilets:teachers' v='1' />
-    <tag k='waste:garbage_disposal' v='always' />
-  </node>
-  <node id='-102484' visible='true' lat='-1.25614' lon='36.867567'>
+  <node id='-39910' lat='-1.25614' lon='36.867567'>
     <tag k='amenity' v='school' />
     <tag k='name' v='St Christopher Primary School' />
   </node>
-  <node id='-102486' visible='true' lat='-1.256472' lon='36.865381'>
+  <node id='-39912' action='modify' lat='-1.256472' lon='36.865381'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='11' />
     <tag k='building:material' v='permanent' />
@@ -3790,7 +3752,6 @@
     <tag k='education:operate_as' v='day_school' />
     <tag k='education:program_feeding' v='yes' />
     <tag k='education:program_feeding_description' v='fees' />
-    <tag k='education:program_feeding_description_2' v='sponsored' />
     <tag k='education:students' v='158' />
     <tag k='education:students_female' v='90' />
     <tag k='education:students_male' v='68' />
@@ -3803,10 +3764,10 @@
     <tag k='government:registered' v='city_council' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Star of Hope Primary School' />
     <tag k='operator:decription' v='Jimmy Muraya' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1988' />
@@ -3815,7 +3776,7 @@
     <tag k='toilets:female' v='6' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102488' action='modify' visible='true' lat='-1.26349776012' lon='36.86018'>
+  <node id='-39914' action='modify' lat='-1.26349776012' lon='36.86018'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
     <tag k='building:classrooms' v='11' />
@@ -3857,10 +3818,10 @@
     <tag k='toilets:teachers' v='2' />
     <tag k='waste:garbage_disposal' v='Sometimes' />
   </node>
-  <node id='-102490' action='modify' visible='true' lat='-1.25855325042' lon='36.86831464566'>
+  <node id='-39916' action='modify' lat='-1.25855325042' lon='36.86831464566'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='4' />
     <tag k='building:material' v='semi_permanent' />
@@ -3894,18 +3855,18 @@
     <tag k='toilets:teachers' v='1' />
     <tag k='waste:garbage_disposal' v='always' />
   </node>
-  <node id='-102492' visible='true' lat='-1.261205' lon='36.862601'>
+  <node id='-39918' lat='-1.261205' lon='36.862601'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Jessi School' />
   </node>
-  <node id='-102494' visible='true' lat='-1.259124' lon='36.868527'>
+  <node id='-39920' lat='-1.259124' lon='36.868527'>
     <tag k='amenity' v='school' />
     <tag k='name' v='Amanda Marga Academy' />
   </node>
-  <node id='-102496' action='modify' visible='true' lat='-1.264218' lon='36.860017'>
+  <node id='-39922' action='modify' lat='-1.264218' lon='36.860017'>
     <tag k='accessibility' v='small_cars,foot,big_vehicles' />
     <tag k='amenity' v='school' />
-    <tag k='barrier:gate' v='yes' />
+    <tag k='barrier' v='gate' />
     <tag k='barrier:security_fence' v='yes' />
     <tag k='building:classrooms' v='11' />
     <tag k='building:library' v='yes' />
@@ -3942,10 +3903,10 @@
     <tag k='government:registered' v='APBET' />
     <tag k='laboratory' v='science,computer' />
     <tag k='laboratory:equipment' v='yes' />
+    <tag k='leisure' v='playground' />
     <tag k='name' v='Mathare Community Outreach Joy' />
     <tag k='operator:decription' v='Mr Daniel Ogutu' />
     <tag k='operator:type' v='private' />
-    <tag k='playground' v='yes' />
     <tag k='room:kitchen' v='yes' />
     <tag k='room:staff' v='yes' />
     <tag k='start_date' v='1994' />
