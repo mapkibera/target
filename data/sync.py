@@ -1,3 +1,5 @@
+---
+---
 #/usr/bin/python
 import urllib, urllib2
 import csv
@@ -31,6 +33,18 @@ def url2file(url,file_name):
   myFile.write(rsp.read())
   myFile.close()
 
+def sync_osm():
+  kibera = "36.7651,-1.3211,36.8178,-1.3009"
+  mathare = "36.8430,-1.2679,36.8790,-1.2489"
+  kangemi = "36.71167,-1.28065,36.82926,-1.20960"
+  mathare = "36.8427,-1.2673,36.8792,-1.2479"
+  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox="
+  url2file(url_base + kibera,"kibera-schools-osm.xml")
+  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node[amenity='school'];out%20meta;&bbox="
+  url2file(url_base + mathare,"mathare-schools-osm.xml")
+  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node[amenity='school'](newer:'2018-10-08T00:00:00Z');out%20meta;&bbox="
+  url2file(url_base + kangemi,"kangemi-schools-osm.xml")
+
 def clean_osm(file):
   osm = geojson.loads(readfile(file))
 
@@ -51,5 +65,10 @@ def clean_osm(file):
   dump = geojson.dumps(osm, sort_keys=True, indent=2)
   writefile(file,dump)
 
-os.system("osmtogeojson -e mathare-schools.xml > mathare-schools.geojson")
-clean_osm('mathare-schools.geojson')
+if os.path.exists('trigger'):
+  os.remove('trigger')       
+  {% for post in site.posts %}{% if post.query %}
+  url2file("{{post.query}}","tmp-osm.xml")
+  os.system("osmtogeojson -e tmp-osm.xml > {{post.geojson}}")
+  clean_osm("{{post.geojson}}")
+  {% endif %}{% endfor %}
