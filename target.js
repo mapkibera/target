@@ -178,6 +178,7 @@
         $( items.join( "" ) ).appendTo( "#table-listing" );
         target.add_results();
         $('#target').tablesorter( { debug: true } );
+        $("#target").tableHeadFixer({'left' : 1, 'head': true});
         $(".groupBtn").trigger('click');
       });
     }

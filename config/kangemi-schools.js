@@ -7,7 +7,6 @@ $( function() {
       },
       "osm:id": {
         "validation" : ["validate_present"],
-        "group" : "basic",
         "filter" : ["filter_id"]
       },
       "osm:_user": {
