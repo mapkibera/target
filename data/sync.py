@@ -4,12 +4,9 @@
 import urllib, urllib2
 import csv
 import os
-import geojson
-from geojson import MultiPoint
+import json
 from datetime import datetime
 import string
-from PIL import Image
-from copy import deepcopy
 
 def readfile(filename):
   with open(filename, 'r') as f:
@@ -33,42 +30,31 @@ def url2file(url,file_name):
   myFile.write(rsp.read())
   myFile.close()
 
-def sync_osm():
-  kibera = "36.7651,-1.3211,36.8178,-1.3009"
-  mathare = "36.8430,-1.2679,36.8790,-1.2489"
-  kangemi = "36.71167,-1.28065,36.82926,-1.20960"
-  mathare = "36.8427,-1.2673,36.8792,-1.2479"
-  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox="
-  url2file(url_base + kibera,"kibera-schools-osm.xml")
-  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node[amenity='school'];out%20meta;&bbox="
-  url2file(url_base + mathare,"mathare-schools-osm.xml")
-  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node[amenity='school'](newer:'2018-10-08T00:00:00Z');out%20meta;&bbox="
-  url2file(url_base + kangemi,"kangemi-schools-osm.xml")
+def clean_osm(source,dest):
+  osm = json.loads(readfile(source))
+  geojson = { "type": "FeatureCollection", "features": [ ] }
 
-def clean_osm(file):
-  osm = geojson.loads(readfile(file))
+  for item in osm['elements']:
+    feature = {"type": "Feature", "geometry": { "type": "Point", "coordinates": [ item['lon'], item['lat']]}}
 
-  for feature in osm.features:
     properties = {}
-    #properties = feature.properties
-    for osm_property in feature.properties['tags'].keys():
-      properties[ "osm:" + osm_property ] = feature.properties['tags'][ osm_property ]
-    if 'user' in feature.properties['meta']:
-        properties[ "osm:_user" ] = feature.properties['meta']['user']
-    if 'timestamp' in feature.properties['meta']:
-        properties[ "osm:_timestamp" ] = datetime.strptime(feature.properties['meta']['timestamp'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y-%m-%d')
-    properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
-    properties[ "osm:location" ] = os.path.splitext(os.path.basename(file))[0].split('-')[0]
+    for osm_property in item['tags'].keys():
+      properties[ "osm:" + osm_property ] = item['tags'][ osm_property ]
+    if 'user' in item:
+        properties[ "osm:_user" ] = item['user']
+    if 'timestamp' in item:
+        properties[ "osm:_timestamp" ] = datetime.strptime(item['timestamp'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y-%m-%d')
+    properties[ "osm:id" ] = item['id'] #TODO change to "_id"?
 
-    feature.properties = properties
+    feature['properties'] = properties
+    geojson['features'].append(feature)
 
-  dump = geojson.dumps(osm, sort_keys=True, indent=2)
-  writefile(file,dump)
+  dump = json.dumps(geojson, sort_keys=True, indent=2)
+  writefile(dest,dump)
 
 if os.path.exists('trigger'):
-  os.remove('trigger')       
+  os.remove('trigger')
   {% for post in site.posts %}{% if post.query %}
-  url2file("{{post.query}}","tmp-osm.xml")
-  os.system("osmtogeojson -e tmp-osm.xml > {{post.geojson}}")
-  clean_osm("{{post.geojson}}")
+  url2file("{{post.query}}","tmp-osm.json")
+  clean_osm("tmp-osm.json", "{{post.geojson}}")
   {% endif %}{% endfor %}
