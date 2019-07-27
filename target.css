@@ -3,6 +3,7 @@
 /*   font-size: 1.2em; */
   margin-bottom: 15px;
   float: left;
+  border-collapse: collapse;
 }
 
 
@@ -35,6 +36,8 @@
 
 #target tbody tr {
   color: #000;
+  border: solid;
+  border-width: 1px 0;
 }
 #target tbody tr td {
   text-align: center;
@@ -51,6 +54,15 @@
   background-color: #ff9999;
 }
 
+
+/* tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
+
+*/
 #controls {
   padding-bottom: 20px;
 }
