@@ -11,11 +11,9 @@ $( function() {
       },
       "osm:_user": {
         "validation" : ["validate_present"],
-        "group" : "basic"
       },
       "osm:_timestamp": {
         "validation" : ["validate_present"],
-        "group" : "basic"
       },
       "osm:accessibility" : {
         "validation" : ["validate_multi_allowed_list"],
