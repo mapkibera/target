@@ -42,8 +42,17 @@
     validate_allowed_list: function(key, value, options) {
       return $.inArray(value,options["allowed_list"]) != -1;
     },
+    validate_allowed_list_or_null: function(key,value, options) {
+      return (typeof value == "undefined") || (this.validate_allowed_list(key,value,options));
+    },
+    validate_allowed_list_if: function(key, value, options, properties, validate_keys) {
+      return ($.inArray(options["if_key"], Object.keys(properties)) == -1) || ($.inArray(properties[options["if_key"]], options["if_value"]) == -1) || this.validate_allowed_list(key,value,options);
+    },
     validate_yes_no: function(key, value, options) {
       return $.inArray(value,["yes","no"]) != -1;
+    },
+    validate_yes_no_null: function(key, value, options) {
+      return (typeof value == "undefined") || (this.validate_yes_no(key, value, options));
     },
     validate_multi_allowed_list: function(key, value, options) {
       var test = true;
