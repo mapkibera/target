@@ -24,27 +24,106 @@ $( function() {
         "validation": ["validate_present"],
         "group": "basic"
       },
-      "osm:amenity" : {
-        "validation": ["validate_allowed_list_or_null"],
-        "options" : {"allowed_list": ["drinking_water","hospital","pharmacy","marketplace","school","bar","toilets","bank","clinic","fuel","community_centre","library","police","place_of_worship","restaurant","parking_space","post_office","bus_station","waste_disposal","car_wash","waste_basket","vending_machine","shelter"]},
+      "osm:image": {
+        "validation": ["validate_url"],
         "group": "basic"
       },
-      "osm:shop": {
-        "validation": ["validate_allowed_list_or_null"],
-        "options" : {"allowed_list": ["chemist","variety_store","supermarket","hardware","department_store","car_repair","bakery","books","furniture","butcher","boutique"]},
+      "osm:image:project": {
+        "validation": ["validate_url"],
         "group": "basic"
+      },
+      "osm:amenity" : {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["school","toilets","place_of_worship","bar","restaurant","community_centre","bus_station","bank","fuel","library","police","post_office","waste_disposal","car_wash","waste_basket","parking_space","cinema","shelter","marketplace","townhall","courthouse","mobile_money_agent","drinking_water","hospital","pharmacy","clinic"]},
+        "group": ["basic","school","water","health"]
+      },
+
+      //other_feature
+      "osm:waste": {
+        "validation": ["validate_allowed_list_if"],
+        "options": {
+          "allowed_list": ["trash"],
+          "if_key": "osm:amenity", "if_value": ["waste_disposal"],
+        },
+        "group": ["other_feature"]
+      },
+      "osm:shelter_type":{
+        "validation": ["validate_allowed_list_if"],
+        "options": {
+          "allowed_list": ["boda"],
+          "if_key": "osm:amenity", "if_value": ["shelter"],
+        },
+        "group": ["other_feature"]
+      },
+      "osm:craft":{
+        "validation": ["validate_allowed_list_or_null"],
+        "options": {
+          "allowed_list": ["yes"]
+        },
+        "group": "other_feature"
+      },
+      "osm:leisure":{
+        "validation": ["validate_allowed_list_or_null"],
+        "options": {
+          "allowed_list": ["stadium","pitch","playground"]
+        },
+        "group": "other_feature"
       },
       "osm:office": {
         "validation": ["validate_allowed_list_or_null"],
         "options" : {"allowed_list": ["administrative","government"]},
-        "group": "basic"
+        "group": "other_feature"
       },
-      "osm:operational_status": {
+      "osm:tourism": {
         "validation": ["validate_allowed_list_or_null"],
-        "options" : {"allowed_list": ["operational","non_operational"]},
-        "group": "facilities"
+        "options" : {"allowed_list": ["guest_house","attraction"]},
+        "group": "other_feature"
+      },
+      "osm:highway": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["street_lamp"]},
+        "group": "other_feature"
+      },
+      "osm:man_made": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["communications_tower","storage_tank","water_well","water_tower","wastewater_plant","works","livestock_dip"]},
+        "group": ["other_feature","water","agriculture"]
+      },
+      "osm:building": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["office","warehouse","greenhouse"]},
+        "group": ["other_feature","agriculture"]
+      },
+      "osm:power": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["transformer"]},
+        "group": "other_feature"
+      },
+      "osm:barrier": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["fence","guard_rail","wall"]},
+        "group": "other_feature"
+      },
+      "osm:fence_type": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {
+          "allowed_list": ["barbed_wire","electric","chain_link","metal","pole","wire"],
+          "if_key": "osm:barrier", "if_value": ["fence"],
+        },
+        "group": "other_feature"
+      },
+      "osm:industrial": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["slaughterhouse"]},
+        "group": "other_feature"
       },
 
+      //School
+      "osm:education:type": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {"allowed_list": ["pre_primary","primary","secondary","vocational","driving_school","tertiary"], "if_key": "osm:amenity", "if_value": ["school"]},
+        "group": "school"
+      },
       "osm:education:gender_type": {
         "validation": ["validate_allowed_list_if"],
         "options" : {"allowed_list": ["boys","girls","mixed"], "if_key": "osm:amenity", "if_value": ["school"]},
@@ -57,24 +136,148 @@ $( function() {
       },
       "osm:operator:type": {
         "validation": ["validate_allowed_list_if"],
-        "options" : {"allowed_list": ["cbo","government","ngo","ngo_international","private","religious"], "if_key": "osm:amenity", "if_value": ["school"]},
-        "group": "school"
+        "options" : {"allowed_list": ["cbo","government","ngo","ngo_international","private","religious","other"], "if_key": "osm:amenity", "if_value": ["school","drinking_water"]},
+        "group": ["school","water"]
       },
       "osm:operator:description": {
-        "validation": ["validate_none"],
-        "group": "school"
-      },
-      "osm:education:type": {
-        "validation": ["validate_allowed_list_if"],
-        "options" : {"allowed_list": ["pre_primary","primary","secondary","vocational"], "if_key": "osm:amenity", "if_value": ["school"]},
-        "group": "school"
+        "validation": ["validate_present_if"],
+        "options" : {
+          "if_key": "osm:amenity", "if_value": ["school","toilets"]
+        },
+        "group": ["school", "toilets"]
       },
       "osm:fee": {
-        "validation": ["validate_allowed_list_if"],
-        "options" : {"allowed_list": ["yes", "no"], "if_key": "osm:amenity", "if_value": ["school"]},
-        "group": "school"
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["yes", "no"], "if_key": "osm:amenity", "if_value": ["school","toilets"]},
+        "group": ["school","toilets","water"]
       },
 
+      //toilets
+
+      "osm:toilets:disposal": {
+         "validation": ["validate_allowed_list_if"],
+         "options" : {
+          "allowed_list": ["flush","pit_latrine"],
+          "if_key": "osm:amenity", "if_value": ["toilets"]
+         },
+         "group": "toilets"
+      },
+      "osm:toilets:handwashing": {
+          "validation": ["validate_allowed_list_if"],
+          "options" : {
+            "allowed_list": ["yes","no"],
+            "if_key": "osm:amenity", "if_value": ["toilets"]
+          },
+          "group": "toilets"
+      },
+      "osm:charge": {
+          "validation": ["validate_none"],
+          "group": "toilets"
+      },
+      "osm:toilets:num_chambers": {
+           "validation": ["validate_numeric_if"],
+           "options" : {
+             "if_key": "osm:amenity", "if_value": ["toilets"]
+           },
+           "group": "toilets"
+      },
+      "osm:opening_hours": {
+         "validation": ["validate_present_if"],
+         "options" : {
+           "if_key": "osm:amenity", "if_value": ["toilets"]
+         },
+         "group": "toilets"
+       },
+
+
+      //shops
+      "osm:shop": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["chemist","variety_store","supermarket","hardware","department_store","car_repair","bakery","books","furniture","butcher","boutique","kiosk","electronics","hairdresser","cafe","ticket"]},
+        "group": "shop"
+      },
+      "osm:male": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {
+          "allowed_list": ["yes","no",""],
+          "if_key": "osm:shop", "if_value": ["hairdresser"]
+        },
+        "group": "shop"
+      },
+
+      //religious
+      "osm:religion": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {
+          "allowed_list": ["christian","islam"],
+          "if_key": "osm:amenity", "if_value": ["place_of_worship"]
+        },
+        "group": "religious"
+      },
+      "osm:denomination": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {
+          "allowed_list": ["anglican","catholic","evangelical","baptist","pentecostal","presbyterian","lutheran","sunni","shia","methodist","seventh_day_adventist"],
+          "if_key": "osm:amenity", "if_value": ["place_of_worship"]
+        },
+        "group": "religious"
+      },
+      "osm:service_times": {
+        "validation": ["validate_present_if"],
+        "options" : {
+          "if_key": "osm:amenity", "if_value": ["place_of_worship"]
+        },
+        "group": "religious"
+      },
+
+      //water
+      "osm:tunnel": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["culvert"]},
+        "group": "water"
+      },
+      "osm:description": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {
+          "allowed_list": ["water_tank","water_tap","kiosk"],
+          "if_key": "osm:amenity", "if_value": ["drinking_water"]
+        },
+        "group": "water"
+      },
+      "osm:water_way": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["drain","dam"]},
+        "group": "water"
+      },
+      "osm:dam:type": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {
+          "allowed_list": ["earth_dam","sand_dam"],
+          "if_key": "osm:water_way", "if_value": ["dam"]
+        },
+        "group": "water"
+      },
+      "osm:natural": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["spring"]},
+        "group": "water"
+      },
+      "osm:operational_status": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["operational","non_operational"]},
+        "group": ["water","agriculture"]
+      },
+      "osm:operator:funding": {
+        "validation": ["validate_allowed_list_or_null"],
+        "options" : {"allowed_list": ["cdf","cbo","national_government","ngo","other"]},
+        "group": "water"
+      },
+
+      "osm:health_facility:type": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {"allowed_list": ["dispensary","health_centre",""], "if_key": "osm:amenity", "if_value": ["clinic"]},
+        "group": "health"
+      },
       "osm:health_facility:referals": {
         "validation": ["validate_allowed_list_if"],
         "options" : {"allowed_list": ["yes", "no"], "if_key": "osm:amenity", "if_value": ["hospital", "clinic"]},
@@ -105,32 +308,27 @@ $( function() {
         "options" : {"allowed_list": ["yes", "no"], "if_key": "osm:amenity", "if_value": ["hospital", "clinic"]},
         "group": "health"
       },
-
-      "osm:toilets:disposal": {
-         "validation": ["validate_allowed_list_or_null"],
-         "options" : {"allowed_list": ["flush","pit_latrine"]},
-         "group": "facilities"
-       },
-       "osm:toilets:handwashing": {
-          "validation": ["validate_allowed_list_or_null"],
-          "options" : {"allowed_list": ["yes","no"]},
-          "group": "facilities"
-        },
+      "osm:dispensing": {
+        "validation": ["validate_allowed_list_if"],
+        "options" : {"allowed_list": ["yes", "no"], "if_key": "osm:amenity", "if_value": ["hospital","clinic"]},
+        "group": "health"
+      },
       "osm:electricity": {
-        "validation": ["validate_allowed_list_or_null"],
-        "options": {"allowed_list": ["always","sometimes","often","never"]},
-        "group": "facilities"
+        "validation": ["validate_allowed_list_if"],
+        "options": {"allowed_list": ["always","sometimes","often","never"], "if_key": "osm:amenity", "if_value": ["hospital","clinic"]},
+        "group": "health"
       },
-      "osm:barrier": {
-        "validation": ["validate_allowed_list_or_null"],
-        "options": {"allowed_list": ["fence","guard_rail","wall"]},
-        "group": "facilities"
+
+      "osm:product": {
+        "validation": ["validate_allowed_list_if"],
+        "options": {"allowed_list": ["dairy","fruit"], "if_key": "osm:man_made", "if_value": ["works"]},
+        "group": "agriculture"
       },
-      "osm:fence_type": {
-        "validation": ["validate_allowed_list_or_null"],
-        "options": {"allowed_list": ["barbed_wire","electric","chain_link","metal","pole","wire"]},
-        "group": "facilities"
-      },
+     "osm:landuse": {
+       "validation": ["validate_allowed_list_or_null"],
+       "options": {"allowed_list": ["orchard","farmyard"]},
+       "group": "agriculture"
+     },
 
       "_unallowed": {
         "validation" : ["validate_unallowed"],
@@ -139,5 +337,4 @@ $( function() {
       }
     }
   );
-  target.load_geojson("/target/data/baringo-projects.geojson");
 });

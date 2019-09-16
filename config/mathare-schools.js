@@ -1,3 +1,5 @@
+---
+---
 $( function() {
   target.global();
   target.set_validation(
@@ -352,5 +354,4 @@ $( function() {
       }
     }
   );
-  target.load_geojson("/target/data/mathare-schools.geojson");
 });

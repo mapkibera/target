@@ -12,6 +12,9 @@
     validate_present: function(key, value, options) {
       return (typeof value !== "undefined");
     },
+    validate_present_if: function(key, value, options, properties, validate_keys) {
+      return ($.inArray(options["if_key"], Object.keys(properties)) == -1) || ($.inArray(properties[options["if_key"]], options["if_value"]) == -1) || this.validate_present(key,value,options);
+    },
     validate_check: function(key, value, options) {
       return $.inArray(value, ["yes","no",undefined]) != -1;
     },
@@ -38,6 +41,9 @@
         return $.isNumeric(value);
       }
       return false;
+    },
+    validate_numeric_if: function(key, value, options, properties, validate_keys) {
+      return ($.inArray(options["if_key"], Object.keys(properties)) == -1) || ($.inArray(properties[options["if_key"]], options["if_value"]) == -1) || this.validate_numeric(key,value,options);
     },
     validate_allowed_list: function(key, value, options) {
       return $.inArray(value,options["allowed_list"]) != -1;
@@ -106,20 +112,32 @@
       return value.substr(0,10);
     },
     filter_id: function(key, value) {
-      return "<a href='http://www.openstreetmap.org/" + value + "'>" + value + "</a>";
+      return "<a href='http://www.openstreetmap.org/node/" + value + "'>" + value + "</a>";
     },
 
+    // fix toggle group to work based off of state of all buttons, and if not present in any group, or present in any activated group, then show.
     toggle_group: function(e) {
-      var group = e.target.innerHTML;
       $(e.target).toggleClass('pure-button-active');
+      var active = $('.pure-button-active');
+      var not_active = $('.pure-button:not(".pure-button-active")');
       $.each( $($('#target-head').children()[0]).children() , function(index, th) {
         var tag = $(th).children()[0].innerHTML;
-        if ($.inArray(tag, target.groups[ group ]) != -1) {
-          if ($('td:nth-child(' + (index+1) + ')')[0].style.display == "none") {
-            $('td:nth-child(' + (index+1) + '),th:nth-child(' + (index+1) + ')').show();
-          } else {
-            $('td:nth-child(' + (index+1) + '),th:nth-child(' + (index+1) + ')').hide();
+        var visible = true;
+        not_active.each(function (group) {
+          if ($.inArray(tag, target.groups[ not_active[group].innerHTML ]) != -1) {
+            visible = false;
           }
+        });
+        active.each(function (group) {
+          if ($.inArray(tag, target.groups[ active[group].innerHTML ]) != -1) {
+            visible = true;
+          }
+        });
+
+        if (visible) {
+            $('td:nth-child(' + (index+1) + '),th:nth-child(' + (index+1) + ')').show();
+        } else {
+            $('td:nth-child(' + (index+1) + '),th:nth-child(' + (index+1) + ')').hide();
         }
       });
     },
@@ -136,12 +154,22 @@
 
       var group_control = "<div>Filters: ";
       $.each( target.validate, function (key, params) {
-        if (params['group'] !== undefined) {
-          if (target.groups[ params['group']] === undefined) {
-            target.groups[ params['group'] ] = [];
-            group_control += "<span class='groupBtn pure-button pure-button-active'>" + params['group'] + "</span> ";
+        if (params['group'] == undefined) return;
+
+        var groups;
+        if (! Array.isArray(params['group'])) {
+          groups = [params['group']];
+        } else {
+          groups = params['group']
+        }
+        for (var group in groups) {
+          if (target.groups[ groups[group] ] === undefined) {
+
+            target.groups[ groups[group] ] = [];
+            group_control += "<span class='groupBtn pure-button pure-button-active'>" + groups[group] + "</span> ";
           }
-          target.groups[ params['group'] ].push( key );
+
+          target.groups[ groups[group] ].push( key );
         }
       });
       group_control += "</div>";
@@ -168,6 +196,7 @@
             //Validations
             var result = true;
             $.each( params['validation'], function(j, validation_callback) {
+              //console.log(validation_callback);
               result = result && (target[ validation_callback ])( key, feature['properties'][key], params['options'], feature['properties'], Object.keys(target.validate) );
             });
             var result_class = (result ? "valid" : "invalid");

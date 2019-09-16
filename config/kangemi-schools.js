@@ -1,3 +1,5 @@
+---
+---
 $( function() {
   target.global();
   target.set_validation(
@@ -546,5 +548,4 @@ $( function() {
 
     }
   );
-  target.load_geojson("/data/kangemi-schools-osm.geojson");
 });
