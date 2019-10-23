@@ -57,4 +57,5 @@ if os.path.exists('trigger'):
   {% for post in site.posts %}{% if post.query %}
   url2file("{{post.query}}","tmp-osm.json")
   clean_osm("tmp-osm.json", "{{post.geojson}}")
+  os.remove('tmp-osm.json')
   {% endif %}{% endfor %}
